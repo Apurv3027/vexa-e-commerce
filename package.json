@@ -1,5 +1,4 @@
 {
-  "homepage": "https://Apurv3027.github.io/Vexa-E-Commerce",
   "name": "vexa-e-commerce",
   "version": "0.1.0",
   "private": true,
@@ -19,9 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "dev": "react-scripts start"
   },
   "eslintConfig": {
     "extends": [
