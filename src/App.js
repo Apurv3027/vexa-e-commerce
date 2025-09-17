@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import LoginPage from './components/Authentication/LoginPage';
-import NotFoundPage from './components/Error/NotFoundPage';
-import HomeScreen from './components/User/HomeScreen';
+import LoginPage from './pages/Authentication/LoginPage';
+import NotFoundPage from './pages/Error/NotFoundPage';
+import HomeScreen from './pages/User/HomeScreen';
 
 function App() {
   return (
