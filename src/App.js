@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import LoginPage from './pages/Authentication/LoginPage';
 import NotFoundPage from './pages/Error/NotFoundPage';
 import HomeScreen from './pages/User/home/HomeScreen';
@@ -7,8 +7,8 @@ import { useState } from 'react';
 import HeaderComponents from './components/home/HeaderComponents';
 
 function App() {
-
   const [cart, setCart] = useState([]);
+  const location = useLocation();
 
   const addToCart = (product) => {
     setCart([...cart, product]);
@@ -18,8 +18,12 @@ function App() {
     setCart(cart.filter(item => item.id !== id));
   };
 
+  // Hide header on login page
+  const hideHeaderRoutes = ["/login"];
+  const shouldHideHeader = hideHeaderRoutes.includes(location.pathname);
+
   return (
-    <BrowserRouter>
+    <>
       {/* Navigation */}
       {/* <nav className="bg-white shadow-lg p-4">
         <div className="container mx-auto flex justify-between items-center">
@@ -34,7 +38,7 @@ function App() {
       </nav> */}
 
       {/* Header Component */}
-      <HeaderComponents cartItemCount={cart.length} />
+      {!shouldHideHeader && <HeaderComponents cartItemCount={cart.length} />}
 
       {/* Main Content */}
       <main className="min-h-screen bg-gray-50">
@@ -67,7 +71,7 @@ function App() {
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
-    </BrowserRouter>
+    </>
   );
 }
 
