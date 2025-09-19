@@ -1,9 +1,23 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LoginPage from './pages/Authentication/LoginPage';
 import NotFoundPage from './pages/Error/NotFoundPage';
-import HomeScreen from './pages/User/HomeScreen';
+import HomeScreen from './pages/User/home/HomeScreen';
+import ProductDetails from './pages/User/home/ProductDetails';
+import { useState } from 'react';
+import HeaderComponents from './components/home/HeaderComponents';
 
 function App() {
+
+  const [cart, setCart] = useState([]);
+
+  const addToCart = (product) => {
+    setCart([...cart, product]);
+  };
+
+  const removeFromCart = (id) => {
+    setCart(cart.filter(item => item.id !== id));
+  };
+
   return (
     <BrowserRouter>
       {/* Navigation */}
@@ -19,6 +33,9 @@ function App() {
         </div>
       </nav> */}
 
+      {/* Header Component */}
+      <HeaderComponents cartItemCount={cart.length} />
+
       {/* Main Content */}
       <main className="min-h-screen bg-gray-50">
         <Routes>
@@ -27,7 +44,22 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
 
           {/* User Routes */}
-          <Route path="/" element={<HomeScreen />} />
+          <Route
+            path="/"
+            element={
+              <HomeScreen
+                cart={cart}
+                addToCart={addToCart}
+                removeFromCart={removeFromCart} />
+            } />
+          <Route
+            path="/products/:productId"
+            element={
+              <ProductDetails
+                cart={cart}
+                addToCart={addToCart}
+                removeFromCart={removeFromCart} />
+            } />
 
           {/* Admin Routes */}
 

@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function LoginPage() {
   const [loginMethod, setLoginMethod] = useState('mobile');
@@ -6,9 +7,11 @@ function LoginPage() {
   const [otpSent, setOtpSent] = useState(false);
   const [otp, setOtp] = useState('');
 
+  const navigate = useNavigate();
+
   const handleGoogleSignIn = () => {
     console.log('Google sign-in initiated');
-    alert('Login successful! (In a real app, this would redirect to home page)');
+    navigate('/', { replace: true });
   };
 
   const handleSendOtp = () => {
@@ -28,7 +31,7 @@ function LoginPage() {
     }
 
     console.log('Logging in with OTP:', otp);
-    alert('Login successful! (In a real app, this would redirect to home page)');
+    navigate('/', { replace: true });
   };
 
   return (
