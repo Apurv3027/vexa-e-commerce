@@ -21,9 +21,9 @@ function FeaturedProductComponents({ products, cart, addToCart, removeFromCart }
                             className="bg-white shadow-md rounded-lg p-4 hover:shadow-xl transition cursor-pointer"
                         >
                             <img
-                                src={`${productItem.thumbnail}`}
+                                src={`${productItem.image}`}
                                 alt={`Product ${productItem.id}`}
-                                className="rounded-lg"
+                                className="rounded-lg h-96 w-full object-fill"
                                 onClick={() => handleProductCardClick(productItem.id)}
                             />
                             <h4 className="mt-4 font-bold">{productItem.title}</h4>

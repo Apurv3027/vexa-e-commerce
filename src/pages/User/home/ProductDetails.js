@@ -27,11 +27,17 @@ function ProductDetails({ cart, addToCart, removeFromCart }) {
     return (
         <div className="p-8">
             <div className="max-w-3xl mx-auto bg-white shadow-lg rounded-lg p-6">
-                <img src={product.thumbnail} alt={product.title} className="rounded-lg w-full h-64 object-cover" />
+                <img
+                    src={product.image}
+                    alt={product.title}
+                    className="rounded-lg w-full h-96 object-fill" />
                 <h2 className="text-2xl font-bold mt-4">{product.title}</h2>
+                <p className="text-gray-600">{product.description}</p>
                 <p className="text-gray-600">{product.category}</p>
-                <p className="text-lg font-semibold mt-2">₹{product.price}</p>
-                <p className="mt-4">{product.description}</p>
+                <p className="text-2xl font-semibold mt-2">₹{product.price}</p>
+                <p className="text-sm font-normal mt-2">
+                    M.R.P.: <span className="line-through">₹{product.oldPrice}</span>
+                </p>
 
                 {isInCart ? (
                     <div className="mt-6 flex items-center justify-center space-x-6 border-2 border-blue-600 rounded-lg px-4 py-2 w-40">

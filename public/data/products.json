@@ -1,614 +1,519 @@
 [
     {
         "id": 1,
-        "title": "Annibale Colombo Bed",
-        "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
-        "category": "furniture",
-        "price": 1899.99,
-        "discountPercentage": 8.57,
-        "rating": 4.77,
-        "stock": 88,
-        "tags": [
-            "furniture",
-            "beds"
-        ],
-        "brand": "Annibale Colombo",
-        "sku": "FUR-ANN-ANN-011",
-        "weight": 10,
-        "dimensions": {
-            "width": 28.16,
-            "height": 25.36,
-            "depth": 17.28
-        },
-        "warrantyInformation": "1 year warranty",
-        "shippingInformation": "Ships in 1 month",
-        "availabilityStatus": "In Stock",
-        "reviews": [
-            {
-                "rating": 2,
-                "comment": "Would not recommend!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Christopher West",
-                "reviewerEmail": "christopher.west@x.dummyjson.com"
-            },
-            {
-                "rating": 4,
-                "comment": "Highly impressed!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Vivian Carter",
-                "reviewerEmail": "vivian.carter@x.dummyjson.com"
-            },
-            {
-                "rating": 1,
-                "comment": "Poor quality!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Mason Wright",
-                "reviewerEmail": "mason.wright@x.dummyjson.com"
-            }
-        ],
-        "returnPolicy": "No return policy",
-        "minimumOrderQuantity": 1,
-        "meta": {
-            "createdAt": "2025-04-30T09:41:02.053Z",
-            "updatedAt": "2025-04-30T09:41:02.053Z",
-            "barcode": "3610757456581",
-            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-        },
-        "images": [
-            "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/1.webp",
-            "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/2.webp",
-            "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/3.webp"
-        ],
-        "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/thumbnail.webp"
+        "title": "Canon EOS Rebel T100",
+        "description": "Canon EOS Rebel T100 Digital SLR Camera with 18-55mm Lens Kit, 18 Megapixel Sensor, Wi-Fi, DIGIC4+, SanDisk 32GB Memory Card and Live View Shooting",
+        "oldPrice": 700,
+        "price": 559.99,
+        "brand": "Canon",
+        "image": "https://i.ibb.co/1r28gMk/1.webp",
+        "isNew": true,
+        "category": "Electronics"
     },
     {
         "id": 2,
-        "title": "Annibale Colombo Sofa",
-        "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
-        "category": "furniture",
-        "price": 2499.99,
-        "discountPercentage": 14.4,
-        "rating": 3.92,
-        "stock": 60,
-        "tags": [
-            "furniture",
-            "sofas"
-        ],
-        "brand": "Annibale Colombo",
-        "sku": "FUR-ANN-ANN-012",
-        "weight": 6,
-        "dimensions": {
-            "width": 12.75,
-            "height": 20.55,
-            "depth": 19.06
-        },
-        "warrantyInformation": "Lifetime warranty",
-        "shippingInformation": "Ships in 1 week",
-        "availabilityStatus": "In Stock",
-        "reviews": [
-            {
-                "rating": 3,
-                "comment": "Very unhappy with my purchase!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Christian Perez",
-                "reviewerEmail": "christian.perez@x.dummyjson.com"
-            },
-            {
-                "rating": 5,
-                "comment": "Fast shipping!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Lillian Bishop",
-                "reviewerEmail": "lillian.bishop@x.dummyjson.com"
-            },
-            {
-                "rating": 1,
-                "comment": "Poor quality!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Lillian Simmons",
-                "reviewerEmail": "lillian.simmons@x.dummyjson.com"
-            }
-        ],
-        "returnPolicy": "7 days return policy",
-        "minimumOrderQuantity": 1,
-        "meta": {
-            "createdAt": "2025-04-30T09:41:02.053Z",
-            "updatedAt": "2025-04-30T09:41:02.053Z",
-            "barcode": "1777662847736",
-            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-        },
-        "images": [
-            "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/1.webp",
-            "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/2.webp",
-            "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/3.webp"
-        ],
-        "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/thumbnail.webp"
+        "title": "DJI Air",
+        "description": "DJI Mini 2 Fly More Combo - Ultralight Foldable Drone, 3-Axis Gimbal with 4K Camera, 12MP Photos, 31 Min Flight Time",
+        "oldPrice": 1050,
+        "price": 999,
+        "brand": "DJI",
+        "image": "https://i.ibb.co/qdfB3s6/2.webp",
+        "isNew": true,
+        "category": "Electronics"
     },
     {
         "id": 3,
-        "title": "Bedside Table African Cherry",
-        "description": "The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.",
-        "category": "furniture",
-        "price": 299.99,
-        "discountPercentage": 19.09,
-        "rating": 2.87,
-        "stock": 64,
-        "tags": [
-            "furniture",
-            "bedside tables"
-        ],
-        "brand": "Furniture Co.",
-        "sku": "FUR-FUR-BED-013",
-        "weight": 2,
-        "dimensions": {
-            "width": 13.47,
-            "height": 24.99,
-            "depth": 27.35
-        },
-        "warrantyInformation": "5 year warranty",
-        "shippingInformation": "Ships overnight",
-        "availabilityStatus": "In Stock",
-        "reviews": [
-            {
-                "rating": 4,
-                "comment": "Excellent quality!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Aaliyah Hanson",
-                "reviewerEmail": "aaliyah.hanson@x.dummyjson.com"
-            },
-            {
-                "rating": 4,
-                "comment": "Excellent quality!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Liam Smith",
-                "reviewerEmail": "liam.smith@x.dummyjson.com"
-            },
-            {
-                "rating": 4,
-                "comment": "Highly recommended!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Avery Barnes",
-                "reviewerEmail": "avery.barnes@x.dummyjson.com"
-            }
-        ],
-        "returnPolicy": "7 days return policy",
-        "minimumOrderQuantity": 3,
-        "meta": {
-            "createdAt": "2025-04-30T09:41:02.053Z",
-            "updatedAt": "2025-04-30T09:41:02.053Z",
-            "barcode": "6441287925979",
-            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-        },
-        "images": [
-            "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/1.webp",
-            "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/2.webp",
-            "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/3.webp"
-        ],
-        "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/thumbnail.webp"
+        "title": "Apple 10.2-inch iPad",
+        "description": "2021 Apple 10.2-inch iPad Wi-Fi 64GB - Space Gray (9th Generation)",
+        "oldPrice": 329,
+        "price": 269,
+        "brand": "Apple",
+        "image": "https://i.ibb.co/VL1Dnv1/4.webp",
+        "isNew": true,
+        "category": "Electronics"
     },
     {
         "id": 4,
-        "title": "Knoll Saarinen Executive Conference Chair",
-        "description": "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.",
-        "category": "furniture",
-        "price": 499.99,
-        "discountPercentage": 2.01,
-        "rating": 4.88,
-        "stock": 26,
-        "tags": [
-            "furniture",
-            "office chairs"
-        ],
-        "brand": "Knoll",
-        "sku": "FUR-KNO-KNO-014",
-        "weight": 10,
-        "dimensions": {
-            "width": 13.81,
-            "height": 7.5,
-            "depth": 5.62
-        },
-        "warrantyInformation": "2 year warranty",
-        "shippingInformation": "Ships overnight",
-        "availabilityStatus": "In Stock",
-        "reviews": [
-            {
-                "rating": 2,
-                "comment": "Waste of money!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Ella Cook",
-                "reviewerEmail": "ella.cook@x.dummyjson.com"
-            },
-            {
-                "rating": 2,
-                "comment": "Very dissatisfied!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Clara Berry",
-                "reviewerEmail": "clara.berry@x.dummyjson.com"
-            },
-            {
-                "rating": 5,
-                "comment": "Would buy again!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Elena Long",
-                "reviewerEmail": "elena.long@x.dummyjson.com"
-            }
-        ],
-        "returnPolicy": "60 days return policy",
-        "minimumOrderQuantity": 5,
-        "meta": {
-            "createdAt": "2025-04-30T09:41:02.053Z",
-            "updatedAt": "2025-04-30T09:41:02.053Z",
-            "barcode": "8919386859966",
-            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-        },
-        "images": [
-            "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/1.webp",
-            "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/2.webp",
-            "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/3.webp"
-        ],
-        "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/thumbnail.webp"
+        "title": "iPhone 14",
+        "description": "AT&T iPhone 14 128GB Midnight",
+        "oldPrice": 1745.99,
+        "price": 1200,
+        "brand": "Apple",
+        "image": "https://i.ibb.co/5F3nWv6/7.webp",
+        "isNew": true,
+        "category": "Electronics"
     },
     {
         "id": 5,
-        "title": "Wooden Bathroom Sink With Mirror",
-        "description": "The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.",
-        "category": "furniture",
-        "price": 799.99,
-        "discountPercentage": 8.8,
-        "rating": 3.59,
-        "stock": 7,
-        "tags": [
-            "furniture",
-            "bathroom"
-        ],
-        "brand": "Bath Trends",
-        "sku": "FUR-BAT-WOO-015",
-        "weight": 10,
-        "dimensions": {
-            "width": 7.98,
-            "height": 8.88,
-            "depth": 28.46
-        },
-        "warrantyInformation": "3 year warranty",
-        "shippingInformation": "Ships in 3-5 business days",
-        "availabilityStatus": "Low Stock",
-        "reviews": [
-            {
-                "rating": 4,
-                "comment": "Fast shipping!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Logan Torres",
-                "reviewerEmail": "logan.torres@x.dummyjson.com"
-            },
-            {
-                "rating": 5,
-                "comment": "Very pleased!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Aria Parker",
-                "reviewerEmail": "aria.parker@x.dummyjson.com"
-            },
-            {
-                "rating": 3,
-                "comment": "Poor quality!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Dylan Wells",
-                "reviewerEmail": "dylan.wells@x.dummyjson.com"
-            }
-        ],
-        "returnPolicy": "60 days return policy",
-        "minimumOrderQuantity": 2,
-        "meta": {
-            "createdAt": "2025-04-30T09:41:02.053Z",
-            "updatedAt": "2025-04-30T09:41:02.053Z",
-            "barcode": "1958104402873",
-            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-        },
-        "images": [
-            "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/1.webp",
-            "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/2.webp",
-            "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/3.webp"
-        ],
-        "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/thumbnail.webp"
+        "title": "Apple Watch SE",
+        "description": "Apple Watch SE (2nd Gen) GPS 40mm Midnight Aluminum Case with Midnight Sport Band - S/M",
+        "oldPrice": 299,
+        "price": 249,
+        "brand": "Apple",
+        "image": "https://i.ibb.co/xgZWmdq/8.jpg",
+        "isNew": true,
+        "category": "Electronics"
     },
     {
         "id": 6,
-        "title": "Decoration Swing",
-        "description": "The Decoration Swing is a charming addition to your home decor. Crafted with intricate details, it adds a touch of elegance and whimsy to any room.",
-        "category": "home-decoration",
-        "price": 59.99,
-        "discountPercentage": 10.41,
-        "rating": 3.16,
-        "stock": 47,
-        "tags": [
-            "home decor",
-            "swing"
-        ],
-        "sku": "HOM-BRD-DEC-043",
-        "weight": 4,
-        "dimensions": {
-            "width": 23.84,
-            "height": 15.19,
-            "depth": 26.05
-        },
-        "warrantyInformation": "1 week warranty",
-        "shippingInformation": "Ships in 1 month",
-        "availabilityStatus": "In Stock",
-        "reviews": [
-            {
-                "rating": 1,
-                "comment": "Would not buy again!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Daniel Cook",
-                "reviewerEmail": "daniel.cook@x.dummyjson.com"
-            },
-            {
-                "rating": 2,
-                "comment": "Poor quality!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Hunter Gordon",
-                "reviewerEmail": "hunter.gordon@x.dummyjson.com"
-            },
-            {
-                "rating": 3,
-                "comment": "Very unhappy with my purchase!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Stella Morris",
-                "reviewerEmail": "stella.morris@x.dummyjson.com"
-            }
-        ],
-        "returnPolicy": "90 days return policy",
-        "minimumOrderQuantity": 8,
-        "meta": {
-            "createdAt": "2025-04-30T09:41:02.053Z",
-            "updatedAt": "2025-04-30T09:41:02.053Z",
-            "barcode": "9646971048759",
-            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-        },
-        "images": [
-            "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/1.webp",
-            "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/2.webp",
-            "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/3.webp"
-        ],
-        "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/thumbnail.webp"
+        "title": "Beats Solo3",
+        "description": "Beats Solo3 Wireless On-Ear Headphones with Apple W1 Headphone Chip, Black, MX432LL/A",
+        "oldPrice": 120.99,
+        "price": 130.09,
+        "brand": "Beats by Dr. Dre",
+        "image": "https://i.ibb.co/rQKjVC2/5.webp",
+        "isNew": true,
+        "category": "Electronics"
     },
     {
         "id": 7,
-        "title": "Family Tree Photo Frame",
-        "description": "The Family Tree Photo Frame is a sentimental and stylish way to display your cherished family memories. With multiple photo slots, it tells the story of your loved ones.",
-        "category": "home-decoration",
-        "price": 29.99,
-        "discountPercentage": 14.87,
-        "rating": 4.53,
-        "stock": 77,
-        "tags": [
-            "home decor",
-            "photo frame"
-        ],
-        "sku": "HOM-BRD-FAM-044",
-        "weight": 1,
-        "dimensions": {
-            "width": 17.27,
-            "height": 14.81,
-            "depth": 29.11
-        },
-        "warrantyInformation": "1 month warranty",
-        "shippingInformation": "Ships in 2 weeks",
-        "availabilityStatus": "In Stock",
-        "reviews": [
-            {
-                "rating": 4,
-                "comment": "Highly impressed!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Oscar Powers",
-                "reviewerEmail": "oscar.powers@x.dummyjson.com"
-            },
-            {
-                "rating": 5,
-                "comment": "Excellent quality!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Austin Hudson",
-                "reviewerEmail": "austin.hudson@x.dummyjson.com"
-            },
-            {
-                "rating": 2,
-                "comment": "Very dissatisfied!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Luke Cooper",
-                "reviewerEmail": "luke.cooper@x.dummyjson.com"
-            }
-        ],
-        "returnPolicy": "No return policy",
-        "minimumOrderQuantity": 15,
-        "meta": {
-            "createdAt": "2025-04-30T09:41:02.053Z",
-            "updatedAt": "2025-04-30T09:41:02.053Z",
-            "barcode": "5398738320864",
-            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-        },
-        "images": [
-            "https://cdn.dummyjson.com/product-images/home-decoration/family-tree-photo-frame/1.webp"
-        ],
-        "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/family-tree-photo-frame/thumbnail.webp"
+        "title": "uhomepro TV Stand Cabinet",
+        "description": "uhomepro TV Stand Cabinet for Living Room up to 55 Television, Entertainment Center with RGB LED Lights and Storage Shelves Furniture, Black High Gloss TV Cabinet Console Table, Q15709",
+        "oldPrice": 219.99,
+        "price": 125.99,
+        "brand": "uhomepro",
+        "image": "https://i.ibb.co/Ycz8hkV/6.webp",
+        "isNew": true,
+        "category": "Home Decoration"
     },
     {
         "id": 8,
-        "title": "House Showpiece Plant",
-        "description": "The House Showpiece Plant is an artificial plant that brings a touch of nature to your home without the need for maintenance. It adds greenery and style to any space.",
-        "category": "home-decoration",
-        "price": 39.99,
-        "discountPercentage": 7.46,
-        "rating": 4.67,
-        "stock": 28,
-        "tags": [
-            "home decor",
-            "artificial plants"
-        ],
-        "sku": "HOM-BRD-HOU-045",
-        "weight": 8,
-        "dimensions": {
-            "width": 8.55,
-            "height": 14.62,
-            "depth": 17.25
-        },
-        "warrantyInformation": "1 year warranty",
-        "shippingInformation": "Ships in 1 week",
-        "availabilityStatus": "In Stock",
-        "reviews": [
-            {
-                "rating": 5,
-                "comment": "Very happy with my purchase!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Natalie Harris",
-                "reviewerEmail": "natalie.harris@x.dummyjson.com"
-            },
-            {
-                "rating": 1,
-                "comment": "Poor quality!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Max Russell",
-                "reviewerEmail": "max.russell@x.dummyjson.com"
-            },
-            {
-                "rating": 5,
-                "comment": "Very pleased!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Nolan Gonzalez",
-                "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
-            }
-        ],
-        "returnPolicy": "No return policy",
-        "minimumOrderQuantity": 3,
-        "meta": {
-            "createdAt": "2025-04-30T09:41:02.053Z",
-            "updatedAt": "2025-04-30T09:41:02.053Z",
-            "barcode": "8433795204995",
-            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-        },
-        "images": [
-            "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/1.webp",
-            "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/2.webp",
-            "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/3.webp"
-        ],
-        "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/thumbnail.webp"
+        "title": "T-Shirt Men",
+        "description": "St Patricks Day T-Shirt Men -Image by Shutterstock, Male XX-Large",
+        "oldPrice": 15,
+        "price": 18.99,
+        "brand": "Smartprints",
+        "image": "https://i.ibb.co/BLCDw7v/3.webp",
+        "isNew": true,
+        "category": "Fashion"
     },
     {
         "id": 9,
-        "title": "Plant Pot",
-        "description": "The Plant Pot is a stylish container for your favorite plants. With a sleek design, it complements your indoor or outdoor garden, adding a modern touch to your plant display.",
-        "category": "home-decoration",
-        "price": 14.99,
-        "discountPercentage": 6.84,
-        "rating": 3.01,
-        "stock": 59,
-        "tags": [
-            "home decor",
-            "plant accessories"
-        ],
-        "sku": "HOM-BRD-PLA-046",
-        "weight": 9,
-        "dimensions": {
-            "width": 9.83,
-            "height": 20.28,
-            "depth": 13.49
-        },
-        "warrantyInformation": "Lifetime warranty",
-        "shippingInformation": "Ships in 3-5 business days",
-        "availabilityStatus": "In Stock",
-        "reviews": [
-            {
-                "rating": 4,
-                "comment": "Fast shipping!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Vivian Carter",
-                "reviewerEmail": "vivian.carter@x.dummyjson.com"
-            },
-            {
-                "rating": 5,
-                "comment": "Very satisfied!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Ella Adams",
-                "reviewerEmail": "ella.adams@x.dummyjson.com"
-            },
-            {
-                "rating": 3,
-                "comment": "Poor quality!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Liam Smith",
-                "reviewerEmail": "liam.smith@x.dummyjson.com"
-            }
-        ],
-        "returnPolicy": "30 days return policy",
-        "minimumOrderQuantity": 31,
-        "meta": {
-            "createdAt": "2025-04-30T09:41:02.053Z",
-            "updatedAt": "2025-04-30T09:41:02.053Z",
-            "barcode": "8477070578398",
-            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-        },
-        "images": [
-            "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/1.webp",
-            "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/2.webp",
-            "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/3.webp",
-            "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/4.webp"
-        ],
-        "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/thumbnail.webp"
+        "title": "Picnic Table Bench Set",
+        "description": "Costway Picnic Table Bench Set Outdoor Backyard Patio Garden Party Dining All Weather Black",
+        "oldPrice": 169.99,
+        "price": 298,
+        "brand": "Costway",
+        "image": "https://i.ibb.co/qCXcPhq/8.webp",
+        "isNew": true,
+        "category": "Home Decoration"
     },
     {
         "id": 10,
-        "title": "Table Lamp",
-        "description": "The Table Lamp is a functional and decorative lighting solution for your living space. With a modern design, it provides both ambient and task lighting, enhancing the atmosphere.",
-        "category": "home-decoration",
-        "price": 49.99,
-        "discountPercentage": 7.09,
-        "rating": 3.55,
-        "stock": 9,
-        "tags": [
-            "home decor",
-            "lighting"
-        ],
-        "sku": "HOM-BRD-TAB-047",
-        "weight": 4,
-        "dimensions": {
-            "width": 8.98,
-            "height": 13.41,
-            "depth": 5.65
-        },
-        "warrantyInformation": "3 months warranty",
-        "shippingInformation": "Ships in 1-2 business days",
-        "availabilityStatus": "In Stock",
-        "reviews": [
-            {
-                "rating": 5,
-                "comment": "Excellent quality!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Benjamin Foster",
-                "reviewerEmail": "benjamin.foster@x.dummyjson.com"
-            },
-            {
-                "rating": 3,
-                "comment": "Would not recommend!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Sophia Jones",
-                "reviewerEmail": "sophia.jones@x.dummyjson.com"
-            },
-            {
-                "rating": 5,
-                "comment": "Awesome product!",
-                "date": "2025-04-30T09:41:02.053Z",
-                "reviewerName": "Natalie Harris",
-                "reviewerEmail": "natalie.harris@x.dummyjson.com"
-            }
-        ],
-        "returnPolicy": "90 days return policy",
-        "minimumOrderQuantity": 2,
-        "meta": {
-            "createdAt": "2025-04-30T09:41:02.053Z",
-            "updatedAt": "2025-04-30T09:41:02.053Z",
-            "barcode": "8806138916048",
-            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-        },
-        "images": [
-            "https://cdn.dummyjson.com/product-images/home-decoration/table-lamp/1.webp"
-        ],
-        "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/table-lamp/thumbnail.webp"
+        "title": "Grill Heavy Duty",
+        "description": "Expert Grill Heavy Duty 24-Inch Charcoal Grill, Black",
+        "oldPrice": 120,
+        "price": 107,
+        "brand": "Expert Grill",
+        "image": "https://i.ibb.co/TTS9wY4/9.webp",
+        "isNew": true,
+        "category": "Equipments"
+    },
+    {
+        "id": 11,
+        "title": "Girls Cropped",
+        "description": "Free Assembly Girls Cropped Mixed Cable Knit Fair Isle Sweater, Sizes 4-18",
+        "oldPrice": 20,
+        "price": 15.31,
+        "brand": "Free Assembly",
+        "image": "https://i.ibb.co/BVzsqvz/10.webp",
+        "isNew": true,
+        "category": "Fashion"
+    },
+    {
+        "id": 12,
+        "title": "Night of Olay Firming Night Cream Face Moisturizer, 1.9 oz",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+        "oldPrice": 12,
+        "price": 7.98,
+        "brand": "Olay",
+        "image": "https://i.ibb.co/zPDcCQY/top4.webp",
+        "isNew": true,
+        "category": "Beauty Product"
+    },
+    {
+        "id": 13,
+        "title": "Face LiquidSweet Lightweight Beauty Products for Women",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+        "oldPrice": 10,
+        "price": 7.62,
+        "brand": "unknown",
+        "image": "https://i.ibb.co/QC4L3RF/top8.jpg",
+        "isNew": true,
+        "category": "Beauty Product"
+    },
+    {
+        "id": 14,
+        "title": "L'Oreal Paris Revitalift Triple Power Anti-Aging Cream Face Moisturizer 1.7 oz",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+        "oldPrice": 35,
+        "price": 21.91,
+        "brand": "L'Oreal Paris",
+        "image": "https://i.ibb.co/dKmw2sC/top2.webp",
+        "isNew": true,
+        "category": "Beauty Product"
+    },
+    {
+        "id": 15,
+        "title": "L'Oreal Paris 55+ Moisturizer Anti-Aging Face Moisturizer, Wrinkle Expert, 1.7 oz",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+        "oldPrice": 23.65,
+        "price": 10.63,
+        "brand": "L'Oreal Paris",
+        "image": "https://i.ibb.co/sJwg0YF/top1.webp",
+        "isNew": true,
+        "category": "Beauty Product"
+    },
+    {
+        "id": 16,
+        "title": "Vaseline Intensive Care™ Advanced Repair Unscented Body Lotion, 20.3 oz",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+        "oldPrice": 9.99,
+        "price": 6.98,
+        "brand": "Vaseline",
+        "image": "https://i.ibb.co/v1sPXLq/top5.webp",
+        "isNew": true,
+        "category": "Beauty Product"
+    },
+    {
+        "id": 17,
+        "title": "CeraVe Healing Ointment, Protects and Soothes Cracked Skin, 12 oz",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+        "oldPrice": 25.35,
+        "price": 20.87,
+        "brand": "CeraVe",
+        "image": "https://i.ibb.co/yPJjB3r/top6.webp",
+        "isNew": false,
+        "category": "Beauty Product"
+    },
+    {
+        "id": 18,
+        "title": "Neutrogena Hydro Boost Hyaluronic Acid Water Gel Face Moisturizer, 1.7 oz",
+        "description": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "oldPrice": 29,
+        "price": 19.97,
+        "brand": "Neutrogena",
+        "image": "https://i.ibb.co/zmw8xFY/top7.webp",
+        "isNew": true,
+        "category": "Beauty Product"
+    },
+    {
+        "id": 19,
+        "title": "L'Oreal Paris Collagen Moisture Filler Facial Treatment Day Night Cream, Anti-Aging, 1.7 oz",
+        "description": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "oldPrice": 14,
+        "price": 8.98,
+        "brand": "L'Oreal Paris",
+        "image": "https://i.ibb.co/vHJkwzt/top3.webp",
+        "isNew": false,
+        "category": "Beauty Product"
+    },
+    {
+        "id": 20,
+        "title": "Girls Sleeveless Cutout",
+        "description": "Free Assembly Girls Sleeveless Cutout Jumpsuit, Sizes 4-18",
+        "oldPrice": 52,
+        "price": 22,
+        "brand": "Free Assembly",
+        "image": "https://i.ibb.co/BNXTLkq/12.webp",
+        "isNew": false,
+        "category": "Fashion"
+    },
+    {
+        "id": 21,
+        "title": "Samsung Galaxy Buds2",
+        "description": "Samsung Galaxy Buds2 True Wireless Earbuds with Noise Cancelling, Graphite",
+        "oldPrice": 149.99,
+        "price": 119.99,
+        "brand": "Samsung",
+        "image": "https://images.pexels.com/photos/3944405/pexels-photo-3944405.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Electronics"
+    },
+    {
+        "id": 22,
+        "title": "Men's Leather Wallet",
+        "description": "Men's Genuine Leather RFID Blocking Wallet with Coin Pocket, Black",
+        "oldPrice": 35,
+        "price": 29.99,
+        "brand": "Fossil",
+        "image": "https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": false,
+        "category": "Fashion"
+    },
+    {
+        "id": 23,
+        "title": "Electric Kettle",
+        "description": "1.7L Stainless Steel Electric Kettle with Auto Shut-Off and Boil-Dry Protection",
+        "oldPrice": 45,
+        "price": 39.99,
+        "brand": "Cuisinart",
+        "image": "https://images.pexels.com/photos/3185508/pexels-photo-3185508.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Home Decoration"
+    },
+    {
+        "id": 24,
+        "title": "L'Oréal Paris Mascara",
+        "description": "L'Oréal Paris Voluminous Original Mascara, Carbon Black, 0.28 fl oz",
+        "oldPrice": 10.99,
+        "price": 8.49,
+        "brand": "L'Oréal Paris",
+        "image": "https://images.pexels.com/photos/3611302/pexels-photo-3611302.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": false,
+        "category": "Beauty Product"
+    },
+    {
+        "id": 25,
+        "title": "Camping Tent",
+        "description": "Coleman Sundome 4-Person Camping Tent with Easy Setup, Navy Blue",
+        "oldPrice": 89.99,
+        "price": 79.99,
+        "brand": "Coleman",
+        "image": "https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Equipments"
+    },
+    {
+        "id": 26,
+        "title": "Sony WH-1000XM5 Headphones",
+        "description": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones with 30 Hours Battery Life, Black",
+        "oldPrice": 399.99,
+        "price": 349.99,
+        "brand": "Sony",
+        "image": "https://images.pexels.com/photos/577769/pexels-photo-577769.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Electronics"
+    },
+    {
+        "id": 27,
+        "title": "Wall Art Set",
+        "description": "3-Piece Modern Abstract Canvas Wall Art Set for Living Room Decor",
+        "oldPrice": 99.99,
+        "price": 89.99,
+        "brand": "Artistic Home",
+        "image": "https://images.pexels.com/photos/1055058/pexels-photo-1055058.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Home Decoration"
+    },
+    {
+        "id": 28,
+        "title": "Yoga Mat",
+        "description": "Eco-Friendly Non-Slip Yoga Mat with Carrying Strap, 6mm Thick, Purple",
+        "oldPrice": 35,
+        "price": 29.99,
+        "brand": "Gaiam",
+        "image": "https://images.pexels.com/photos/3822621/pexels-photo-3822621.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": false,
+        "category": "Equipments"
+    },
+    {
+        "id": 29,
+        "title": "Men's Denim Jacket",
+        "description": "Levi's Men's Trucker Denim Jacket, Medium Wash, Sizes S-XXL",
+        "oldPrice": 89.99,
+        "price": 69.99,
+        "brand": "Levi's",
+        "image": "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Fashion"
+    },
+    {
+        "id": 30,
+        "title": "KitchenAid Stand Mixer",
+        "description": "KitchenAid Classic Series 4.5-Quart Tilt-Head Stand Mixer, Onyx Black",
+        "oldPrice": 329.99,
+        "price": 279.99,
+        "brand": "KitchenAid",
+        "image": "https://images.pexels.com/photos/4047039/pexels-photo-4047039.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Home Decoration"
+    },
+    {
+        "id": 31,
+        "title": "Neutrogena Sunscreen SPF 50",
+        "description": "Neutrogena Ultra Sheer Dry-Touch Sunscreen, SPF 50, 3 fl oz",
+        "oldPrice": 12.99,
+        "price": 9.99,
+        "brand": "Neutrogena",
+        "image": "https://images.pexels.com/photos/4465124/pexels-photo-4465124.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Beauty Product"
+    },
+    {
+        "id": 32,
+        "title": "Nintendo Switch OLED",
+        "description": "Nintendo Switch OLED Model with White Joy-Con, 64GB Storage",
+        "oldPrice": 349.99,
+        "price": 329.99,
+        "brand": "Nintendo",
+        "image": "https://images.pexels.com/photos/10566918/pexels-photo-10566918.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Electronics"
+    },
+    {
+        "id": 33,
+        "title": "Women's Running Shoes",
+        "description": "Under Armour Women's Charged Assert 9 Running Shoes, Sizes 6-10",
+        "oldPrice": 75,
+        "price": 59.99,
+        "brand": "Under Armour",
+        "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Fashion"
+    },
+    {
+        "id": 34,
+        "title": "Patio Umbrella",
+        "description": "9-Foot Outdoor Patio Umbrella with Tilt and Crank, Navy Blue",
+        "oldPrice": 79.99,
+        "price": 69.99,
+        "brand": "Sunbrella",
+        "image": "https://images.pexels.com/photos/358528/pexels-photo-358528.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Home Decoration"
+    },
+    {
+        "id": 35,
+        "title": "Portable Camping Chair",
+        "description": "Coleman Portable Camping Chair with Cooler, Black",
+        "oldPrice": 49.99,
+        "price": 39.99,
+        "brand": "Coleman",
+        "image": "https://images.pexels.com/photos/242138/pexels-photo-242138.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Equipments"
+    },
+    {
+        "id": 36,
+        "title": "Bose SoundLink Speaker",
+        "description": "Bose SoundLink Micro Bluetooth Speaker, Waterproof, Black",
+        "oldPrice": 119,
+        "price": 99,
+        "brand": "Bose",
+        "image": "https://images.pexels.com/photos/3965520/pexels-photo-3965520.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Electronics"
+    },
+    {
+        "id": 37,
+        "title": "Women's Floral Dress",
+        "description": "Time and Tru Women's Sleeveless Floral Midi Dress, Sizes XS-XXL",
+        "oldPrice": 29.99,
+        "price": 24.99,
+        "brand": "Time and Tru",
+        "image": "https://images.pexels.com/photos/12915247/pexels-photo-12915247.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Fashion"
+    },
+    {
+        "id": 38,
+        "title": "CeraVe Foaming Cleanser",
+        "description": "CeraVe Foaming Facial Cleanser, Daily Face Wash for Oily Skin, 16 fl oz",
+        "oldPrice": 17.99,
+        "price": 14.99,
+        "brand": "CeraVe",
+        "image": "https://i.ibb.co/yPJjB3r/top6.webp",
+        "isNew": true,
+        "category": "Beauty Product"
+    },
+    {
+        "id": 39,
+        "title": "Area Rug 5x7",
+        "description": "Better Homes & Gardens Modern Geometric Area Rug, 5x7 Feet, Gray",
+        "oldPrice": 89.99,
+        "price": 79.99,
+        "brand": "Better Homes & Gardens",
+        "image": "https://images.pexels.com/photos/105934/pexels-photo-105934.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Home Decoration"
+    },
+    {
+        "id": 40,
+        "title": "Fitbit Versa 3",
+        "description": "Fitbit Versa 3 Health & Fitness Smartwatch with GPS, Black",
+        "oldPrice": 229.95,
+        "price": 199.95,
+        "brand": "Fitbit",
+        "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Electronics"
+    },
+    {
+        "id": 41,
+        "title": "Air Fryer 5.8 Qt",
+        "description": "Gourmia 5.8-Quart Digital Air Fryer with 8 Presets, Black",
+        "oldPrice": 79.99,
+        "price": 69.99,
+        "brand": "Gourmia",
+        "image": "https://images.pexels.com/photos/4108797/pexels-photo-4108797.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Home Decoration"
+    },
+    {
+        "id": 42,
+        "title": "Maybelline Lipstick",
+        "description": "Maybelline Color Sensational Lipstick, Mauve It, 0.15 oz",
+        "oldPrice": 8.99,
+        "price": 6.99,
+        "brand": "Maybelline",
+        "image": "https://images.pexels.com/photos/3611301/pexels-photo-3611301.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Beauty Product"
+    },
+    {
+        "id": 43,
+        "title": "LG 55-Inch 4K TV",
+        "description": "LG 55-Inch Class 4K Ultra HD Smart LED TV with HDR",
+        "oldPrice": 499.99,
+        "price": 449.99,
+        "brand": "LG",
+        "image": "https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Electronics"
+    },
+    {
+        "id": 44,
+        "title": "Women's Yoga Pants",
+        "description": "Athletic Works Women's High-Waisted Yoga Pants, Sizes XS-XXL",
+        "oldPrice": 19.99,
+        "price": 15.99,
+        "brand": "Athletic Works",
+        "image": "https://images.pexels.com/photos/4056723/pexels-photo-4056723.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Fashion"
+    },
+    {
+        "id": 45,
+        "title": "Throw Blanket",
+        "description": "Mainstays Cozy Plush Throw Blanket, 50x60 Inches, Gray",
+        "oldPrice": 12.99,
+        "price": 9.99,
+        "brand": "Mainstays",
+        "image": "https://images.pexels.com/photos/1926959/pexels-photo-1926959.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Home Decoration"
+    },
+    {
+        "id": 46,
+        "title": "Portable Power Bank",
+        "description": "Anker PowerCore 10000 Portable Charger, 10000mAh Power Bank",
+        "oldPrice": 29.99,
+        "price": 24.99,
+        "brand": "Anker",
+        "image": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Electronics"
+    },
+    {
+        "id": 47,
+        "title": "Backpack Cooler",
+        "description": "Igloo MaxCold Backpack Cooler, 24-Can Capacity, Black",
+        "oldPrice": 49.99,
+        "price": 39.99,
+        "brand": "Igloo",
+        "image": "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "isNew": true,
+        "category": "Equipments"
     }
 ]

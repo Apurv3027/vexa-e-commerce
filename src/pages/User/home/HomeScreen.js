@@ -5,11 +5,27 @@ import CategoryComponents from "../../../components/home/CategoryComponents";
 import FeaturedProductComponents from "../../../components/home/FeaturedProductComponents";
 
 function HomeScreen({ cart, addToCart, removeFromCart }) {
+    const [categoryData, setCategoryData] = useState([]);
     const [productData, setProductData] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
     useEffect(() => {
+        // Category Data Fetching
+        fetch("./data/categories.json").then(response => {
+            if (!response.ok) {
+                throw new Error("HTTP error " + response.status);
+            }
+            return response.json();
+        }).then(jsonData => {
+            setCategoryData(jsonData);
+            setLoading(false);
+        }).catch(error => {
+            setError(error);
+            setLoading(false);
+        });
+
+        // Product Data Fetching
         fetch("./data/products.json").then(response => {
             if (!response.ok) {
                 throw new Error("HTTP error " + response.status);
@@ -44,7 +60,7 @@ function HomeScreen({ cart, addToCart, removeFromCart }) {
             </section>
 
             {/* Categories */}
-            <CategoryComponents />
+            <CategoryComponents categories={categoryData} />
 
             {/* Featured Products */}
             <FeaturedProductComponents
