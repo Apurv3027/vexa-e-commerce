@@ -8,7 +8,7 @@
         "brand": "Canon",
         "image": "https://i.ibb.co/1r28gMk/1.webp",
         "isNew": true,
-        "category": "Electronics"
+        "category": "electronics"
     },
     {
         "id": 2,
@@ -19,7 +19,7 @@
         "brand": "DJI",
         "image": "https://i.ibb.co/qdfB3s6/2.webp",
         "isNew": true,
-        "category": "Electronics"
+        "category": "electronics"
     },
     {
         "id": 3,
@@ -30,7 +30,7 @@
         "brand": "Apple",
         "image": "https://i.ibb.co/VL1Dnv1/4.webp",
         "isNew": true,
-        "category": "Electronics"
+        "category": "electronics"
     },
     {
         "id": 4,
@@ -41,7 +41,7 @@
         "brand": "Apple",
         "image": "https://i.ibb.co/5F3nWv6/7.webp",
         "isNew": true,
-        "category": "Electronics"
+        "category": "electronics"
     },
     {
         "id": 5,
@@ -52,7 +52,7 @@
         "brand": "Apple",
         "image": "https://i.ibb.co/xgZWmdq/8.jpg",
         "isNew": true,
-        "category": "Electronics"
+        "category": "electronics"
     },
     {
         "id": 6,
@@ -63,7 +63,7 @@
         "brand": "Beats by Dr. Dre",
         "image": "https://i.ibb.co/rQKjVC2/5.webp",
         "isNew": true,
-        "category": "Electronics"
+        "category": "electronics"
     },
     {
         "id": 7,
@@ -74,7 +74,7 @@
         "brand": "uhomepro",
         "image": "https://i.ibb.co/Ycz8hkV/6.webp",
         "isNew": true,
-        "category": "Home Decoration"
+        "category": "decoration"
     },
     {
         "id": 8,
@@ -85,7 +85,7 @@
         "brand": "Smartprints",
         "image": "https://i.ibb.co/BLCDw7v/3.webp",
         "isNew": true,
-        "category": "Fashion"
+        "category": "fashion"
     },
     {
         "id": 9,
@@ -96,7 +96,7 @@
         "brand": "Costway",
         "image": "https://i.ibb.co/qCXcPhq/8.webp",
         "isNew": true,
-        "category": "Home Decoration"
+        "category": "decoration"
     },
     {
         "id": 10,
@@ -107,7 +107,7 @@
         "brand": "Expert Grill",
         "image": "https://i.ibb.co/TTS9wY4/9.webp",
         "isNew": true,
-        "category": "Equipments"
+        "category": "equipments"
     },
     {
         "id": 11,
@@ -118,7 +118,7 @@
         "brand": "Free Assembly",
         "image": "https://i.ibb.co/BVzsqvz/10.webp",
         "isNew": true,
-        "category": "Fashion"
+        "category": "fashion"
     },
     {
         "id": 12,
@@ -129,7 +129,7 @@
         "brand": "Olay",
         "image": "https://i.ibb.co/zPDcCQY/top4.webp",
         "isNew": true,
-        "category": "Beauty Product"
+        "category": "beauty"
     },
     {
         "id": 13,
@@ -140,7 +140,7 @@
         "brand": "unknown",
         "image": "https://i.ibb.co/QC4L3RF/top8.jpg",
         "isNew": true,
-        "category": "Beauty Product"
+        "category": "beauty"
     },
     {
         "id": 14,
@@ -151,7 +151,7 @@
         "brand": "L'Oreal Paris",
         "image": "https://i.ibb.co/dKmw2sC/top2.webp",
         "isNew": true,
-        "category": "Beauty Product"
+        "category": "beauty"
     },
     {
         "id": 15,
@@ -162,7 +162,7 @@
         "brand": "L'Oreal Paris",
         "image": "https://i.ibb.co/sJwg0YF/top1.webp",
         "isNew": true,
-        "category": "Beauty Product"
+        "category": "beauty"
     },
     {
         "id": 16,
@@ -173,7 +173,7 @@
         "brand": "Vaseline",
         "image": "https://i.ibb.co/v1sPXLq/top5.webp",
         "isNew": true,
-        "category": "Beauty Product"
+        "category": "beauty"
     },
     {
         "id": 17,
@@ -184,7 +184,7 @@
         "brand": "CeraVe",
         "image": "https://i.ibb.co/yPJjB3r/top6.webp",
         "isNew": false,
-        "category": "Beauty Product"
+        "category": "beauty"
     },
     {
         "id": 18,
@@ -195,7 +195,7 @@
         "brand": "Neutrogena",
         "image": "https://i.ibb.co/zmw8xFY/top7.webp",
         "isNew": true,
-        "category": "Beauty Product"
+        "category": "beauty"
     },
     {
         "id": 19,
@@ -206,7 +206,7 @@
         "brand": "L'Oreal Paris",
         "image": "https://i.ibb.co/vHJkwzt/top3.webp",
         "isNew": false,
-        "category": "Beauty Product"
+        "category": "beauty"
     },
     {
         "id": 20,
@@ -217,7 +217,7 @@
         "brand": "Free Assembly",
         "image": "https://i.ibb.co/BNXTLkq/12.webp",
         "isNew": false,
-        "category": "Fashion"
+        "category": "fashion"
     },
     {
         "id": 21,
@@ -228,7 +228,7 @@
         "brand": "Samsung",
         "image": "https://images.pexels.com/photos/3944405/pexels-photo-3944405.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Electronics"
+        "category": "electronics"
     },
     {
         "id": 22,
@@ -239,7 +239,7 @@
         "brand": "Fossil",
         "image": "https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": false,
-        "category": "Fashion"
+        "category": "fashion"
     },
     {
         "id": 23,
@@ -250,7 +250,7 @@
         "brand": "Cuisinart",
         "image": "https://images.pexels.com/photos/3185508/pexels-photo-3185508.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Home Decoration"
+        "category": "decoration"
     },
     {
         "id": 24,
@@ -261,7 +261,7 @@
         "brand": "L'Oréal Paris",
         "image": "https://images.pexels.com/photos/3611302/pexels-photo-3611302.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": false,
-        "category": "Beauty Product"
+        "category": "beauty"
     },
     {
         "id": 25,
@@ -272,7 +272,7 @@
         "brand": "Coleman",
         "image": "https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Equipments"
+        "category": "equipments"
     },
     {
         "id": 26,
@@ -283,7 +283,7 @@
         "brand": "Sony",
         "image": "https://images.pexels.com/photos/577769/pexels-photo-577769.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Electronics"
+        "category": "electronics"
     },
     {
         "id": 27,
@@ -294,7 +294,7 @@
         "brand": "Artistic Home",
         "image": "https://images.pexels.com/photos/1055058/pexels-photo-1055058.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Home Decoration"
+        "category": "decoration"
     },
     {
         "id": 28,
@@ -305,7 +305,7 @@
         "brand": "Gaiam",
         "image": "https://images.pexels.com/photos/3822621/pexels-photo-3822621.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": false,
-        "category": "Equipments"
+        "category": "equipments"
     },
     {
         "id": 29,
@@ -316,7 +316,7 @@
         "brand": "Levi's",
         "image": "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Fashion"
+        "category": "fashion"
     },
     {
         "id": 30,
@@ -327,7 +327,7 @@
         "brand": "KitchenAid",
         "image": "https://images.pexels.com/photos/4047039/pexels-photo-4047039.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Home Decoration"
+        "category": "decoration"
     },
     {
         "id": 31,
@@ -338,7 +338,7 @@
         "brand": "Neutrogena",
         "image": "https://images.pexels.com/photos/4465124/pexels-photo-4465124.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Beauty Product"
+        "category": "beauty"
     },
     {
         "id": 32,
@@ -349,7 +349,7 @@
         "brand": "Nintendo",
         "image": "https://images.pexels.com/photos/10566918/pexels-photo-10566918.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Electronics"
+        "category": "electronics"
     },
     {
         "id": 33,
@@ -360,7 +360,7 @@
         "brand": "Under Armour",
         "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Fashion"
+        "category": "fashion"
     },
     {
         "id": 34,
@@ -371,7 +371,7 @@
         "brand": "Sunbrella",
         "image": "https://images.pexels.com/photos/358528/pexels-photo-358528.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Home Decoration"
+        "category": "decoration"
     },
     {
         "id": 35,
@@ -382,7 +382,7 @@
         "brand": "Coleman",
         "image": "https://images.pexels.com/photos/242138/pexels-photo-242138.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Equipments"
+        "category": "equipments"
     },
     {
         "id": 36,
@@ -393,7 +393,7 @@
         "brand": "Bose",
         "image": "https://images.pexels.com/photos/3965520/pexels-photo-3965520.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Electronics"
+        "category": "electronics"
     },
     {
         "id": 37,
@@ -404,7 +404,7 @@
         "brand": "Time and Tru",
         "image": "https://images.pexels.com/photos/12915247/pexels-photo-12915247.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Fashion"
+        "category": "fashion"
     },
     {
         "id": 38,
@@ -415,7 +415,7 @@
         "brand": "CeraVe",
         "image": "https://i.ibb.co/yPJjB3r/top6.webp",
         "isNew": true,
-        "category": "Beauty Product"
+        "category": "beauty"
     },
     {
         "id": 39,
@@ -426,7 +426,7 @@
         "brand": "Better Homes & Gardens",
         "image": "https://images.pexels.com/photos/105934/pexels-photo-105934.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Home Decoration"
+        "category": "decoration"
     },
     {
         "id": 40,
@@ -437,7 +437,7 @@
         "brand": "Fitbit",
         "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Electronics"
+        "category": "electronics"
     },
     {
         "id": 41,
@@ -448,7 +448,7 @@
         "brand": "Gourmia",
         "image": "https://images.pexels.com/photos/4108797/pexels-photo-4108797.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Home Decoration"
+        "category": "decoration"
     },
     {
         "id": 42,
@@ -459,7 +459,7 @@
         "brand": "Maybelline",
         "image": "https://images.pexels.com/photos/3611301/pexels-photo-3611301.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Beauty Product"
+        "category": "beauty"
     },
     {
         "id": 43,
@@ -470,7 +470,7 @@
         "brand": "LG",
         "image": "https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Electronics"
+        "category": "electronics"
     },
     {
         "id": 44,
@@ -481,7 +481,7 @@
         "brand": "Athletic Works",
         "image": "https://images.pexels.com/photos/4056723/pexels-photo-4056723.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Fashion"
+        "category": "fashion"
     },
     {
         "id": 45,
@@ -492,7 +492,7 @@
         "brand": "Mainstays",
         "image": "https://images.pexels.com/photos/1926959/pexels-photo-1926959.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Home Decoration"
+        "category": "decoration"
     },
     {
         "id": 46,
@@ -503,7 +503,7 @@
         "brand": "Anker",
         "image": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Electronics"
+        "category": "electronics"
     },
     {
         "id": 47,
@@ -514,6 +514,6 @@
         "brand": "Igloo",
         "image": "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=600",
         "isNew": true,
-        "category": "Equipments"
+        "category": "equipments"
     }
 ]

@@ -1,62 +1,22 @@
 [
     {
         "id": 1,
-        "name": "Electronics",
-        "description": "Devices and gadgets including smartphones, cameras, and audio equipment.",
-        "parentId": null
+        "name": "beauty"
     },
     {
         "id": 2,
-        "name": "Fashion",
-        "description": "Clothing, accessories, and footwear for all ages and styles.",
-        "parentId": null
+        "name": "decoration"
     },
     {
         "id": 3,
-        "name": "Home & Garden",
-        "description": "Furniture, decor, and outdoor equipment for your living spaces.",
-        "parentId": null
+        "name": "electronics"
     },
     {
         "id": 4,
-        "name": "Sports & Outdoors",
-        "description": "Gear and apparel for sports, camping, and outdoor activities.",
-        "parentId": null
+        "name": "equipments"
     },
     {
         "id": 5,
-        "name": "Beauty & Personal Care",
-        "description": "Skincare, makeup, and grooming products.",
-        "parentId": null
-    },
-    {
-        "id": 6,
-        "name": "Cameras",
-        "description": "Digital, DSLR, and action cameras for photography enthusiasts.",
-        "parentId": 1
-    },
-    {
-        "id": 7,
-        "name": "Smartphones",
-        "description": "Latest smartphones and accessories.",
-        "parentId": 1
-    },
-    {
-        "id": 8,
-        "name": "Audio",
-        "description": "Headphones, earbuds, and speakers for high-quality sound.",
-        "parentId": 1
-    },
-    {
-        "id": 9,
-        "name": "Men's Clothing",
-        "description": "Casual and formal wear for men.",
-        "parentId": 2
-    },
-    {
-        "id": 10,
-        "name": "Women's Clothing",
-        "description": "Dresses, tops, and activewear for women.",
-        "parentId": 2
+        "name": "fashion"
     }
 ]

@@ -1,0 +1,43 @@
+{
+  "auth": {
+    "login": "लॉगिन",
+    "logout": "लॉगआउट",
+    "welcomeBack": "वापसी पर स्वागत है",
+    "signInMessage": "अपने खाते तक पहुँचने के लिए साइन इन करें",
+    "mobileSignIn": "मोबाइल से साइन इन",
+    "googleSignIn": "गूगल से साइन इन",
+    "mobileNumber": "मोबाइल नंबर",
+    "verificationCode": "सत्यापन कोड",
+    "enterCode": "6-अंकीय कोड दर्ज करें",
+    "sentVerification": "हमने आपके मोबाइल पर एक सत्यापन कोड भेजा है",
+    "sendVerificationCode": "सत्यापन कोड भेजें",
+    "signIn": "साइन इन",
+    "signInWithGoogle": "गूगल से साइन इन करें",
+    "redirectGoogle": "साइन इन करने के लिए आपको गूगल पर रीडायरेक्ट किया जाएगा"
+  },
+  "header": {
+    "language": "भाषा",
+    "deliveryLocation": "डिलीवरी लोकेशन",
+    "updateLocation": "लोकेशन अपडेट करें",
+    "helloSignIn": "नमस्ते, साइन इन करें",
+    "accountAndLists": "अकाउंट और सूचियाँ",
+    "cart": "कार्ट"
+  },
+  "hero": {
+    "title": "अपनी शैली खोजें",
+    "subtitle": "बेहतरीन दामों पर नवीनतम रुझानों की खरीदारी करें",
+    "button": "अभी खरीदें"
+  },
+  "categories": {
+    "title": "श्रेणी के अनुसार खरीदारी",
+    "beauty": "सौंदर्य",
+    "decoration": "सजावट",
+    "electronics": "इलेक्ट्रॉनिक्स",
+    "equipments": "उपकरण",
+    "fashion": "फैशन"
+  },
+  "products": {
+    "title": "विशेष रुप से प्रदर्शित प्रोडक्टस",
+    "addToCart": "कार्ट में जोड़ें"
+  }
+}

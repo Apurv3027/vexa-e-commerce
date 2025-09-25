@@ -5,6 +5,7 @@ import HomeScreen from './pages/User/home/HomeScreen';
 import ProductDetails from './pages/User/home/ProductDetails';
 import { useState } from 'react';
 import HeaderComponents from './components/home/HeaderComponents';
+import CategoryDetail from './pages/User/category/CategoryDetail';
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -64,6 +65,7 @@ function App() {
                 addToCart={addToCart}
                 removeFromCart={removeFromCart} />
             } />
+          <Route path="/category/:categoryId" element={<CategoryDetail />} />
 
           {/* Admin Routes */}
 

@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 
 function FeaturedProductComponents({ products, cart, addToCart, removeFromCart }) {
+
+    const { t } = useTranslation();
 
     const navigate = useNavigate();
 
@@ -10,7 +13,7 @@ function FeaturedProductComponents({ products, cart, addToCart, removeFromCart }
 
     return (
         <section className="px-8 py-12 bg-gray-100">
-            <h3 className="text-2xl font-bold mb-6">Featured Products</h3>
+            <h3 className="text-2xl font-bold mb-6">{t("products.title")}</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
                 {products.map((productItem) => {
                     const isInCart = cart.some((item) => item.id === productItem.id);
@@ -59,7 +62,7 @@ function FeaturedProductComponents({ products, cart, addToCart, removeFromCart }
                                     onClick={() => addToCart(productItem)}
                                     className="mt-6 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
                                 >
-                                    Add to Cart
+                                    {t("products.addToCart")}
                                 </button>
                             )}
                         </div>

@@ -1,7 +1,11 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 
 function LoginPage() {
+
+  const { t } = useTranslation();
+
   const [loginMethod, setLoginMethod] = useState('mobile');
   const [mobileNumber, setMobileNumber] = useState('');
   const [otpSent, setOtpSent] = useState(false);
@@ -38,8 +42,8 @@ function LoginPage() {
     <div className="flex justify-center items-center min-h-screen bg-gray-100 p-5">
       <div className="bg-white rounded-xl shadow-lg w-full max-w-md p-8">
         <div className="text-center mb-8">
-          <h2 className="text-gray-800 text-3xl font-bold mb-3">Welcome Back</h2>
-          <p className="text-gray-600 text-base">Sign in to access your account</p>
+          <h2 className="text-gray-800 text-3xl font-bold mb-3">{t("auth.welcomeBack")}</h2>
+          <p className="text-gray-600 text-base">{t("auth.signInMessage")}</p>
         </div>
 
         <div className="flex bg-gray-50 rounded-lg p-1 mb-6">
@@ -50,7 +54,7 @@ function LoginPage() {
               }`}
             onClick={() => setLoginMethod('mobile')}
           >
-            Mobile Sign In
+            {t("auth.mobileSignIn")}
           </button>
           <button
             className={`flex-1 py-3 px-4 rounded-md font-semibold cursor-pointer transition-all duration-300 ${loginMethod === 'google'
@@ -59,7 +63,7 @@ function LoginPage() {
               }`}
             onClick={() => setLoginMethod('google')}
           >
-            Google Sign In
+            {t("auth.googleSignIn")}
           </button>
         </div>
 
@@ -67,7 +71,7 @@ function LoginPage() {
           <div className="mobile-login">
             <div className="mb-5">
               <label htmlFor="mobile" className="block mb-2 font-semibold text-gray-800">
-                Mobile Number
+                {t("auth.mobileNumber")}
               </label>
               <div className="flex items-center border border-gray-200 rounded-lg overflow-hidden">
                 <span className="px-4 bg-gray-50 h-12 flex items-center justify-center font-semibold border-r border-gray-200">
@@ -88,7 +92,7 @@ function LoginPage() {
             {otpSent && (
               <div className="mb-5">
                 <label htmlFor="otp" className="block mb-2 font-semibold text-gray-800">
-                  Verification Code
+                  {t("auth.verificationCode")}
                 </label>
                 <input
                   type="text"
@@ -100,7 +104,7 @@ function LoginPage() {
                   className="w-full p-3 border border-gray-200 rounded-lg text-base transition-colors focus:border-blue-400 focus:shadow-sm focus:shadow-blue-200 outline-none"
                 />
                 <p className="text-sm text-gray-600 mt-2">
-                  We've sent a verification code to your mobile
+                  {t("auth.sentVerification")}
                 </p>
               </div>
             )}
@@ -109,7 +113,7 @@ function LoginPage() {
               className="w-full py-3 bg-gray-700 text-white border-none rounded-lg text-base font-semibold cursor-pointer transition-colors hover:bg-gray-800"
               onClick={otpSent ? handleLogin : handleSendOtp}
             >
-              {otpSent ? 'Sign In' : 'Send Verification Code'}
+              {otpSent ? `${t("auth.signIn")}` : `${t("auth.sendVerificationCode")}`}
             </button>
           </div>
         ) : (
@@ -126,10 +130,10 @@ function LoginPage() {
                   <path fill="#1976D2" d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z" />
                 </svg>
               </span>
-              Sign in with Google
+              {t("auth.signInWithGoogle")}
             </button>
             <p className="text-center text-sm text-gray-600 mt-4">
-              You'll be redirected to Google to sign in
+              {t("auth.redirectGoogle")}
             </p>
           </div>
         )}

@@ -1,0 +1,43 @@
+{
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "welcomeBack": "Welcome Back",
+    "signInMessage": "Sign in to access your account",
+    "mobileSignIn": "Mobile Sign In",
+    "googleSignIn": "Google Sign In",
+    "mobileNumber": "Mobile Number",
+    "verificationCode": "Verification Code",
+    "enterCode": "Enter 6-digit code",
+    "sentVerification": "We've sent a verification code to your mobile",
+    "sendVerificationCode": "Send Verification Code",
+    "signIn": "Sign In",
+    "signInWithGoogle": "Sign in with Google",
+    "redirectGoogle": "You'll be redirected to Google to sign in"
+  },
+  "header": {
+    "language": "Language",
+    "deliveryLocation": "Delivering to",
+    "updateLocation": "Update location",
+    "helloSignIn": "Hello, Sign in",
+    "accountAndLists": "Account & Lists",
+    "cart": "Cart"
+  },
+  "hero": {
+    "title": "Discover Your Style",
+    "subtitle": "Shop the latest trends at unbeatable prices",
+    "button": "Shop Now"
+  },
+  "categories": {
+    "title": "Shop by Category",
+    "beauty": "Beauty",
+    "decoration": "Decoration",
+    "electronics": "Electronics",
+    "equipments": "Equipments",
+    "fashion": "Fashion"
+  },
+  "products": {
+    "title": "Featured Products",
+    "addToCart": "Add to Cart"
+  }
+}

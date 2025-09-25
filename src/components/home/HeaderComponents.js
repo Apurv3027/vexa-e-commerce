@@ -1,6 +1,10 @@
 import { useNavigate } from "react-router-dom";
+import LanguageSelector from "./LanguageSelector";
+import { useTranslation } from "react-i18next";
 
 function HeaderComponents({ cartItemCount }) {
+
+    const { t } = useTranslation();
 
     const navigate = useNavigate();
 
@@ -14,8 +18,8 @@ function HeaderComponents({ cartItemCount }) {
             {/* Location */}
             <div className="ml-6 flex items-center space-x-1 cursor-pointer">
                 <div className="leading-tight">
-                    <p className="text-xs text-black-300">Delivering to Surat 395001</p>
-                    <p className="font-bold text-sm">Update location</p>
+                    <p className="text-xs text-black-300">{t("header.deliveryLocation")} Surat 395001</p>
+                    <p className="font-bold text-sm">{t("header.updateLocation")}</p>
                 </div>
             </div>
 
@@ -29,27 +33,28 @@ function HeaderComponents({ cartItemCount }) {
             </div>
 
             {/* Language */}
-            <div className="flex items-center space-x-1 cursor-pointer">
+            <LanguageSelector />
+            {/* <div className="flex items-center space-x-1 cursor-pointer">
                 <img
                     src="https://flagcdn.com/w20/in.png"
                     alt="India Flag"
                     className="h-4"
                 />
                 <span className="text-sm">EN</span>
-            </div>
+            </div> */}
 
             {/* Account & Lists */}
             <div className="ml-6 leading-tight cursor-pointer">
-                <p className="text-xs">Hello, sign in</p>
-                <p className="font-bold text-sm">Account & Lists</p>
+                <p className="text-xs">{t("header.helloSignIn")}</p>
+                <p className="font-bold text-sm">{t("header.accountAndLists")}</p>
             </div>
 
             {/* Cart */}
             <div className="ml-6 flex items-center cursor-pointer">
                 <button className="px-4 py-2 bg-blue-600 text-white rounded-lg">
-                    {cartItemCount === 0 ? `Cart` : `Cart (${cartItemCount})`}
+                    {cartItemCount === 0 ? t("header.cart") : `${t("header.cart")} (${cartItemCount})`}
                 </button>
-                <button className="px-4 py-2 ml-1 bg-blue-600 text-white rounded-lg" onClick={() => navigate("/login")}>Login</button>
+                <button className="px-4 py-2 ml-1 bg-blue-600 text-white rounded-lg" onClick={() => navigate("/login")}>{t("auth.login")}</button>
             </div>
         </header>
     );

@@ -3,8 +3,12 @@ import FooterComponents from "../../../components/home/FooterComponents";
 import { useEffect, useState } from "react";
 import CategoryComponents from "../../../components/home/CategoryComponents";
 import FeaturedProductComponents from "../../../components/home/FeaturedProductComponents";
+import { useTranslation } from "react-i18next";
 
 function HomeScreen({ cart, addToCart, removeFromCart }) {
+
+    const { t } = useTranslation();
+
     const [categoryData, setCategoryData] = useState([]);
     const [productData, setProductData] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -52,10 +56,10 @@ function HomeScreen({ cart, addToCart, removeFromCart }) {
         <div className="bg-gray-50 min-h-screen">
             {/* Hero Section */}
             <section className="flex flex-col items-center justify-center text-center py-20 bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
-                <h2 className="text-4xl md:text-6xl font-bold">Discover Your Style</h2>
-                <p className="mt-4 text-lg md:text-xl">Shop the latest trends at unbeatable prices</p>
+                <h2 className="text-4xl md:text-6xl font-bold">{t("hero.title")}</h2>
+                <p className="mt-4 text-lg md:text-xl">{t("hero.subtitle")}</p>
                 <button className="mt-6 px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg">
-                    Shop Now
+                    {t("hero.button")}
                 </button>
             </section>
 
