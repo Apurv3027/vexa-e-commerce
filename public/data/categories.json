@@ -1,22 +1,27 @@
 [
     {
         "id": 1,
-        "name": "beauty"
+        "name": "beauty",
+        "image": "/img/categories/beauty-category.png"
     },
     {
         "id": 2,
-        "name": "decoration"
+        "name": "decoration",
+        "image": "/img/categories/decoration-category.png"
     },
     {
         "id": 3,
-        "name": "electronics"
+        "name": "electronics",
+        "image": "/img/categories/electronics-category.png"
     },
     {
         "id": 4,
-        "name": "equipments"
+        "name": "equipments",
+        "image": "/img/categories/equipments-category.png"
     },
     {
         "id": 5,
-        "name": "fashion"
+        "name": "fashion",
+        "image": "/img/categories/fashion-category.png"
     }
 ]
