@@ -1,83 +1,42 @@
-// import { useState, useEffect } from 'react';
-import FooterComponents from "../../../components/home/FooterComponents";
-import { useEffect, useState } from "react";
-import CategoryComponents from "../../../components/home/CategoryComponents";
-import FeaturedProductComponents from "../../../components/home/FeaturedProductComponents";
-import { useTranslation } from "react-i18next";
+import React, { useContext } from "react";
+import { ProductContext } from "../../../contexts/ProductContext";
+import Product from '../../../components/home/Product'
+import Hero from '../../../components/home/Hero'
+import Category from "../../../components/home/Category";
 
-function HomeScreen({ cart, addToCart, removeFromCart }) {
+const HomeScreen = () => {
+  // get products from product context
+  const { products } = useContext(ProductContext);
 
-    const { t } = useTranslation();
+  console.log(products);
 
-    const [categoryData, setCategoryData] = useState([]);
-    const [productData, setProductData] = useState([]);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
-
-    useEffect(() => {
-        // Category Data Fetching
-        fetch("./data/categories.json").then(response => {
-            if (!response.ok) {
-                throw new Error("HTTP error " + response.status);
-            }
-            return response.json();
-        }).then(jsonData => {
-            setCategoryData(jsonData);
-            setLoading(false);
-        }).catch(error => {
-            setError(error);
-            setLoading(false);
-        });
-
-        // Product Data Fetching
-        fetch("./data/products.json").then(response => {
-            if (!response.ok) {
-                throw new Error("HTTP error " + response.status);
-            }
-            return response.json();
-        }).then(jsonData => {
-            setProductData(jsonData);
-            setLoading(false);
-        }).catch(error => {
-            setError(error);
-            setLoading(false);
-        });
-    }, []);
-
-    if (loading) {
-        return <div>Loading data...</div>;
-    }
-
-    if (error) {
-        return <div>Error loading data: {error.message}</div>;
-    }
-
+  // get only men's and women's clothing category
+  const filteredProducts = products.filter((item) => {
     return (
-        <div className="bg-gray-50 min-h-screen">
-            {/* Hero Section */}
-            <section className="flex flex-col items-center justify-center text-center py-20 bg-gradient-to-r from-blue-500 to-indigo-600 text-white animate-slideUp">
-                <h2 className="text-4xl md:text-6xl font-bold">{t("hero.title")}</h2>
-                <p className="mt-4 text-lg md:text-xl">{t("hero.subtitle")}</p>
-                <button className="mt-6 px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg">
-                    {t("hero.button")}
-                </button>
-            </section>
-
-            {/* Categories */}
-            <CategoryComponents categories={categoryData} />
-
-            {/* Featured Products */}
-            <FeaturedProductComponents
-                products={productData}
-                cart={cart}
-                addToCart={addToCart}
-                removeFromCart={removeFromCart}
-            />
-
-            {/* Footer */}
-            <FooterComponents />
-        </div>
+    //   item.category === "men's clothing" || item.category === "women's clothing" || item.category === "jewelery"
+      item.category
     );
-}
+  });
+
+  return (
+    <div>
+      <Hero />
+      <section className="py-20">
+        <div className="container mx-auto">
+          <h1 className="text-3xl font-semibold mb-10 text-center">Categories</h1>
+          <Category />
+          <h1 className="text-3xl font-semibold mb-10 text-center">Explore Our Products</h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 lg:mx-8 gap-[30px] max-w-sm mx-auto md:max-w-none md:mx-0">
+            {products.map((product) => {
+              return (
+                <Product product={product} key={product.id}/>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
 
 export default HomeScreen;

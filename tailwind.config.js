@@ -6,10 +6,32 @@ module.exports = withMT({
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontFamily: {
+      primary: 'Poppins',
+    },
+    container: {
+      padding: {
+        DEFAULT: '30px',
+        lg: '0',
+      },
+    },
+    screens: {
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1440px',
+    },
     extend: {
+      colors: {
+        primary: '#222222',
+        secondary: '#F5E6E0',
+      },
+      backgroundImage: {
+        hero: "url('./img/bghero.jpg')",
+      },
       keyframes: {
         fadeIn: {
-          '0%': { opacity: '0' }, 
+          '0%': { opacity: '0' },
           '100%': { opacity: '1' },
         },
         slideIn: {
@@ -22,9 +44,9 @@ module.exports = withMT({
         },
       },
       animation: {
-        fadeIn: 'fadeIn 1.5s ease-out forwards',
+        fadeIn: 'fadeIn 2s ease-out forwards',
         slideIn: 'slideIn 1s ease-in-out forwards',
-        slideUp: 'slideUp 0.8s ease-out forwards',
+        slideUp: 'slideUp 1s ease-out forwards',
       },
     },
   },

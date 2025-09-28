@@ -1,76 +1,50 @@
-import { useEffect, useState } from "react";
+import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
+import { CartContext } from "../../../contexts/CartContext";
+import { ProductContext } from "../../../contexts/ProductContext";
 
-function ProductDetails({ cart, addToCart, removeFromCart }) {
-    const { productId } = useParams();
-    const [product, setProduct] = useState(null);
+const ProductDetails = () => {
+    // get the product id from url
+    const { id } = useParams();
+    const { addToCart } = useContext(CartContext);
+    const { products } = useContext(ProductContext);
 
-    useEffect(() => {
-        // Scroll to top
-        window.scrollTo(0, 0);
+    //get the single product based on id
+    const product = products.find((item) => {
+        return item.id === parseInt(id);
+    });
 
-        fetch("/data/products.json")
-            .then(res => res.json())
-            .then(data => {
-                const found = data.find(p => p.id === parseInt(productId));
-                setProduct(found);
-            });
-    }, [productId]);
-
+    // if product is not found
     if (!product) {
-        return <div>Loading product details...</div>;
+        return (
+            <section className="h-screen flex justify-center items-center">
+                Loading...
+            </section>
+        );
     }
 
-    // Check if this product is already in the cart
-    const isInCart = cart.some(item => item.id === product.id);
-
+    // destructure product
+    const { title, price, description, image } = product;
     return (
-        <div className="p-8">
-            <div className="max-w-3xl mx-auto bg-white shadow-lg rounded-lg p-6">
-                <img
-                    src={product.image}
-                    alt={product.title}
-                    className="rounded-lg w-full h-96 object-fill" />
-                <h2 className="text-2xl font-bold mt-4">{product.title}</h2>
-                <p className="text-gray-600">{product.description}</p>
-                <p className="text-gray-600">{product.category}</p>
-                <p className="text-2xl font-semibold mt-2">₹{product.price}</p>
-                <p className="text-sm font-normal mt-2">
-                    M.R.P.: <span className="line-through">₹{product.oldPrice}</span>
-                </p>
-
-                {isInCart ? (
-                    <div className="mt-6 flex items-center justify-center space-x-6 border-2 border-blue-600 rounded-lg px-4 py-2 w-40">
-                        {/* Remove button (Trash) */}
-                        <button
-                            onClick={() => removeFromCart(product.id)}
-                            className="text-black text-xl"
-                        >
-                            🗑
-                        </button>
-
-                        {/* Quantity */}
-                        <span className="font-bold">{cart.find(item => item.id === product.id)?.quantity || 1}</span>
-
-                        {/* Add button (+) */}
-                        <button
-                            onClick={() => addToCart(product)}
-                            className="text-black text-xl"
-                        >
-                            +
-                        </button>
+        <section className="pt-[450px] md:pt-32 pb-[400px] md:pb-12 lg:py-32 h-screen flex items-center">
+            <div className="container mx-auto">
+                {/* image and text wrapper */}
+                <div className="flex flex-col lg:flex-row items-center">
+                    {/* image */}
+                    <div className="flex flex-1 justify-center items-center mb-8 lg:mb-0">
+                        <img className="max-w-[200px] lg:max-w-xs" src={image} alt="" />
                     </div>
-                ) : (
-                    <button
-                        onClick={() => addToCart(product)}
-                        className="mt-6 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
-                    >
-                        Add to Cart
-                    </button>
-                )}
+                    {/* text */}
+                    <div className="flex-1 text-center lg:text-left">
+                        <h1 className="text-[26px] font-medium mb-2 max-w-[450px] mx-auto lg:mx-0">{title}</h1>
+                        <div className="text-2xl text-red-500 font-medium mb-6">₹ {price}</div>
+                        <p className="mb-8">{description}</p>
+                        <button onClick={() => addToCart(product, product.id)} className='bg-primary py-4 px-8 text-white'>Add to cart</button>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
     );
-}
+};
 
 export default ProductDetails;

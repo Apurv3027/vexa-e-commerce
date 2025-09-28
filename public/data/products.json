@@ -1,519 +1,242 @@
 [
     {
         "id": 1,
-        "title": "Canon EOS Rebel T100",
-        "description": "Canon EOS Rebel T100 Digital SLR Camera with 18-55mm Lens Kit, 18 Megapixel Sensor, Wi-Fi, DIGIC4+, SanDisk 32GB Memory Card and Live View Shooting",
-        "oldPrice": 700,
-        "price": 559.99,
-        "brand": "Canon",
-        "image": "https://i.ibb.co/1r28gMk/1.webp",
-        "isNew": true,
-        "category": "electronics"
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
     },
     {
         "id": 2,
-        "title": "DJI Air",
-        "description": "DJI Mini 2 Fly More Combo - Ultralight Foldable Drone, 3-Axis Gimbal with 4K Camera, 12MP Photos, 31 Min Flight Time",
-        "oldPrice": 1050,
-        "price": 999,
-        "brand": "DJI",
-        "image": "https://i.ibb.co/qdfB3s6/2.webp",
-        "isNew": true,
-        "category": "electronics"
+        "title": "Mens Casual Premium Slim Fit T-Shirts ",
+        "price": 22.3,
+        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
     },
     {
         "id": 3,
-        "title": "Apple 10.2-inch iPad",
-        "description": "2021 Apple 10.2-inch iPad Wi-Fi 64GB - Space Gray (9th Generation)",
-        "oldPrice": 329,
-        "price": 269,
-        "brand": "Apple",
-        "image": "https://i.ibb.co/VL1Dnv1/4.webp",
-        "isNew": true,
-        "category": "electronics"
+        "title": "Mens Cotton Jacket",
+        "price": 55.99,
+        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        }
     },
     {
         "id": 4,
-        "title": "iPhone 14",
-        "description": "AT&T iPhone 14 128GB Midnight",
-        "oldPrice": 1745.99,
-        "price": 1200,
-        "brand": "Apple",
-        "image": "https://i.ibb.co/5F3nWv6/7.webp",
-        "isNew": true,
-        "category": "electronics"
+        "title": "Mens Casual Slim Fit",
+        "price": 15.99,
+        "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_t.png",
+        "rating": {
+            "rate": 2.1,
+            "count": 430
+        }
     },
     {
         "id": 5,
-        "title": "Apple Watch SE",
-        "description": "Apple Watch SE (2nd Gen) GPS 40mm Midnight Aluminum Case with Midnight Sport Band - S/M",
-        "oldPrice": 299,
-        "price": 249,
-        "brand": "Apple",
-        "image": "https://i.ibb.co/xgZWmdq/8.jpg",
-        "isNew": true,
-        "category": "electronics"
+        "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+        "price": 695,
+        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_t.png",
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        }
     },
     {
         "id": 6,
-        "title": "Beats Solo3",
-        "description": "Beats Solo3 Wireless On-Ear Headphones with Apple W1 Headphone Chip, Black, MX432LL/A",
-        "oldPrice": 120.99,
-        "price": 130.09,
-        "brand": "Beats by Dr. Dre",
-        "image": "https://i.ibb.co/rQKjVC2/5.webp",
-        "isNew": true,
-        "category": "electronics"
+        "title": "Solid Gold Petite Micropave ",
+        "price": 168,
+        "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_t.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 70
+        }
     },
     {
         "id": 7,
-        "title": "uhomepro TV Stand Cabinet",
-        "description": "uhomepro TV Stand Cabinet for Living Room up to 55 Television, Entertainment Center with RGB LED Lights and Storage Shelves Furniture, Black High Gloss TV Cabinet Console Table, Q15709",
-        "oldPrice": 219.99,
-        "price": 125.99,
-        "brand": "uhomepro",
-        "image": "https://i.ibb.co/Ycz8hkV/6.webp",
-        "isNew": true,
-        "category": "decoration"
+        "title": "White Gold Plated Princess",
+        "price": 9.99,
+        "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_t.png",
+        "rating": {
+            "rate": 3,
+            "count": 400
+        }
     },
     {
         "id": 8,
-        "title": "T-Shirt Men",
-        "description": "St Patricks Day T-Shirt Men -Image by Shutterstock, Male XX-Large",
-        "oldPrice": 15,
-        "price": 18.99,
-        "brand": "Smartprints",
-        "image": "https://i.ibb.co/BLCDw7v/3.webp",
-        "isNew": true,
-        "category": "fashion"
+        "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+        "price": 10.99,
+        "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_t.png",
+        "rating": {
+            "rate": 1.9,
+            "count": 100
+        }
     },
     {
         "id": 9,
-        "title": "Picnic Table Bench Set",
-        "description": "Costway Picnic Table Bench Set Outdoor Backyard Patio Garden Party Dining All Weather Black",
-        "oldPrice": 169.99,
-        "price": 298,
-        "brand": "Costway",
-        "image": "https://i.ibb.co/qCXcPhq/8.webp",
-        "isNew": true,
-        "category": "decoration"
+        "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+        "price": 64,
+        "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_t.png",
+        "rating": {
+            "rate": 3.3,
+            "count": 203
+        }
     },
     {
         "id": 10,
-        "title": "Grill Heavy Duty",
-        "description": "Expert Grill Heavy Duty 24-Inch Charcoal Grill, Black",
-        "oldPrice": 120,
-        "price": 107,
-        "brand": "Expert Grill",
-        "image": "https://i.ibb.co/TTS9wY4/9.webp",
-        "isNew": true,
-        "category": "equipments"
+        "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+        "price": 109,
+        "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_t.png",
+        "rating": {
+            "rate": 2.9,
+            "count": 470
+        }
     },
     {
         "id": 11,
-        "title": "Girls Cropped",
-        "description": "Free Assembly Girls Cropped Mixed Cable Knit Fair Isle Sweater, Sizes 4-18",
-        "oldPrice": 20,
-        "price": 15.31,
-        "brand": "Free Assembly",
-        "image": "https://i.ibb.co/BVzsqvz/10.webp",
-        "isNew": true,
-        "category": "fashion"
+        "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+        "price": 109,
+        "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_t.png",
+        "rating": {
+            "rate": 4.8,
+            "count": 319
+        }
     },
     {
         "id": 12,
-        "title": "Night of Olay Firming Night Cream Face Moisturizer, 1.9 oz",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "oldPrice": 12,
-        "price": 7.98,
-        "brand": "Olay",
-        "image": "https://i.ibb.co/zPDcCQY/top4.webp",
-        "isNew": true,
-        "category": "beauty"
+        "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+        "price": 114,
+        "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_t.png",
+        "rating": {
+            "rate": 4.8,
+            "count": 400
+        }
     },
     {
         "id": 13,
-        "title": "Face LiquidSweet Lightweight Beauty Products for Women",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "oldPrice": 10,
-        "price": 7.62,
-        "brand": "unknown",
-        "image": "https://i.ibb.co/QC4L3RF/top8.jpg",
-        "isNew": true,
-        "category": "beauty"
+        "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+        "price": 599,
+        "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_t.png",
+        "rating": {
+            "rate": 2.9,
+            "count": 250
+        }
     },
     {
         "id": 14,
-        "title": "L'Oreal Paris Revitalift Triple Power Anti-Aging Cream Face Moisturizer 1.7 oz",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "oldPrice": 35,
-        "price": 21.91,
-        "brand": "L'Oreal Paris",
-        "image": "https://i.ibb.co/dKmw2sC/top2.webp",
-        "isNew": true,
-        "category": "beauty"
+        "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+        "price": 999.99,
+        "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_t.png",
+        "rating": {
+            "rate": 2.2,
+            "count": 140
+        }
     },
     {
         "id": 15,
-        "title": "L'Oreal Paris 55+ Moisturizer Anti-Aging Face Moisturizer, Wrinkle Expert, 1.7 oz",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "oldPrice": 23.65,
-        "price": 10.63,
-        "brand": "L'Oreal Paris",
-        "image": "https://i.ibb.co/sJwg0YF/top1.webp",
-        "isNew": true,
-        "category": "beauty"
+        "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+        "price": 56.99,
+        "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_t.png",
+        "rating": {
+            "rate": 2.6,
+            "count": 235
+        }
     },
     {
         "id": 16,
-        "title": "Vaseline Intensive Care™ Advanced Repair Unscented Body Lotion, 20.3 oz",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "oldPrice": 9.99,
-        "price": 6.98,
-        "brand": "Vaseline",
-        "image": "https://i.ibb.co/v1sPXLq/top5.webp",
-        "isNew": true,
-        "category": "beauty"
+        "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+        "price": 29.95,
+        "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_t.png",
+        "rating": {
+            "rate": 2.9,
+            "count": 340
+        }
     },
     {
         "id": 17,
-        "title": "CeraVe Healing Ointment, Protects and Soothes Cracked Skin, 12 oz",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "oldPrice": 25.35,
-        "price": 20.87,
-        "brand": "CeraVe",
-        "image": "https://i.ibb.co/yPJjB3r/top6.webp",
-        "isNew": false,
-        "category": "beauty"
+        "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+        "price": 39.99,
+        "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2t.png",
+        "rating": {
+            "rate": 3.8,
+            "count": 679
+        }
     },
     {
         "id": 18,
-        "title": "Neutrogena Hydro Boost Hyaluronic Acid Water Gel Face Moisturizer, 1.7 oz",
-        "description": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "oldPrice": 29,
-        "price": 19.97,
-        "brand": "Neutrogena",
-        "image": "https://i.ibb.co/zmw8xFY/top7.webp",
-        "isNew": true,
-        "category": "beauty"
+        "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+        "price": 9.85,
+        "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_t.png",
+        "rating": {
+            "rate": 4.7,
+            "count": 130
+        }
     },
     {
         "id": 19,
-        "title": "L'Oreal Paris Collagen Moisture Filler Facial Treatment Day Night Cream, Anti-Aging, 1.7 oz",
-        "description": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "oldPrice": 14,
-        "price": 8.98,
-        "brand": "L'Oreal Paris",
-        "image": "https://i.ibb.co/vHJkwzt/top3.webp",
-        "isNew": false,
-        "category": "beauty"
+        "title": "Opna Women's Short Sleeve Moisture",
+        "price": 7.95,
+        "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_t.png",
+        "rating": {
+            "rate": 4.5,
+            "count": 146
+        }
     },
     {
         "id": 20,
-        "title": "Girls Sleeveless Cutout",
-        "description": "Free Assembly Girls Sleeveless Cutout Jumpsuit, Sizes 4-18",
-        "oldPrice": 52,
-        "price": 22,
-        "brand": "Free Assembly",
-        "image": "https://i.ibb.co/BNXTLkq/12.webp",
-        "isNew": false,
-        "category": "fashion"
-    },
-    {
-        "id": 21,
-        "title": "Samsung Galaxy Buds2",
-        "description": "Samsung Galaxy Buds2 True Wireless Earbuds with Noise Cancelling, Graphite",
-        "oldPrice": 149.99,
-        "price": 119.99,
-        "brand": "Samsung",
-        "image": "https://images.pexels.com/photos/3944405/pexels-photo-3944405.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "electronics"
-    },
-    {
-        "id": 22,
-        "title": "Men's Leather Wallet",
-        "description": "Men's Genuine Leather RFID Blocking Wallet with Coin Pocket, Black",
-        "oldPrice": 35,
-        "price": 29.99,
-        "brand": "Fossil",
-        "image": "https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": false,
-        "category": "fashion"
-    },
-    {
-        "id": 23,
-        "title": "Electric Kettle",
-        "description": "1.7L Stainless Steel Electric Kettle with Auto Shut-Off and Boil-Dry Protection",
-        "oldPrice": 45,
-        "price": 39.99,
-        "brand": "Cuisinart",
-        "image": "https://images.pexels.com/photos/3185508/pexels-photo-3185508.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "decoration"
-    },
-    {
-        "id": 24,
-        "title": "L'Oréal Paris Mascara",
-        "description": "L'Oréal Paris Voluminous Original Mascara, Carbon Black, 0.28 fl oz",
-        "oldPrice": 10.99,
-        "price": 8.49,
-        "brand": "L'Oréal Paris",
-        "image": "https://images.pexels.com/photos/3611302/pexels-photo-3611302.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": false,
-        "category": "beauty"
-    },
-    {
-        "id": 25,
-        "title": "Camping Tent",
-        "description": "Coleman Sundome 4-Person Camping Tent with Easy Setup, Navy Blue",
-        "oldPrice": 89.99,
-        "price": 79.99,
-        "brand": "Coleman",
-        "image": "https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "equipments"
-    },
-    {
-        "id": 26,
-        "title": "Sony WH-1000XM5 Headphones",
-        "description": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones with 30 Hours Battery Life, Black",
-        "oldPrice": 399.99,
-        "price": 349.99,
-        "brand": "Sony",
-        "image": "https://images.pexels.com/photos/577769/pexels-photo-577769.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "electronics"
-    },
-    {
-        "id": 27,
-        "title": "Wall Art Set",
-        "description": "3-Piece Modern Abstract Canvas Wall Art Set for Living Room Decor",
-        "oldPrice": 99.99,
-        "price": 89.99,
-        "brand": "Artistic Home",
-        "image": "https://images.pexels.com/photos/1055058/pexels-photo-1055058.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "decoration"
-    },
-    {
-        "id": 28,
-        "title": "Yoga Mat",
-        "description": "Eco-Friendly Non-Slip Yoga Mat with Carrying Strap, 6mm Thick, Purple",
-        "oldPrice": 35,
-        "price": 29.99,
-        "brand": "Gaiam",
-        "image": "https://images.pexels.com/photos/3822621/pexels-photo-3822621.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": false,
-        "category": "equipments"
-    },
-    {
-        "id": 29,
-        "title": "Men's Denim Jacket",
-        "description": "Levi's Men's Trucker Denim Jacket, Medium Wash, Sizes S-XXL",
-        "oldPrice": 89.99,
-        "price": 69.99,
-        "brand": "Levi's",
-        "image": "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "fashion"
-    },
-    {
-        "id": 30,
-        "title": "KitchenAid Stand Mixer",
-        "description": "KitchenAid Classic Series 4.5-Quart Tilt-Head Stand Mixer, Onyx Black",
-        "oldPrice": 329.99,
-        "price": 279.99,
-        "brand": "KitchenAid",
-        "image": "https://images.pexels.com/photos/4047039/pexels-photo-4047039.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "decoration"
-    },
-    {
-        "id": 31,
-        "title": "Neutrogena Sunscreen SPF 50",
-        "description": "Neutrogena Ultra Sheer Dry-Touch Sunscreen, SPF 50, 3 fl oz",
-        "oldPrice": 12.99,
-        "price": 9.99,
-        "brand": "Neutrogena",
-        "image": "https://images.pexels.com/photos/4465124/pexels-photo-4465124.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "beauty"
-    },
-    {
-        "id": 32,
-        "title": "Nintendo Switch OLED",
-        "description": "Nintendo Switch OLED Model with White Joy-Con, 64GB Storage",
-        "oldPrice": 349.99,
-        "price": 329.99,
-        "brand": "Nintendo",
-        "image": "https://images.pexels.com/photos/10566918/pexels-photo-10566918.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "electronics"
-    },
-    {
-        "id": 33,
-        "title": "Women's Running Shoes",
-        "description": "Under Armour Women's Charged Assert 9 Running Shoes, Sizes 6-10",
-        "oldPrice": 75,
-        "price": 59.99,
-        "brand": "Under Armour",
-        "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "fashion"
-    },
-    {
-        "id": 34,
-        "title": "Patio Umbrella",
-        "description": "9-Foot Outdoor Patio Umbrella with Tilt and Crank, Navy Blue",
-        "oldPrice": 79.99,
-        "price": 69.99,
-        "brand": "Sunbrella",
-        "image": "https://images.pexels.com/photos/358528/pexels-photo-358528.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "decoration"
-    },
-    {
-        "id": 35,
-        "title": "Portable Camping Chair",
-        "description": "Coleman Portable Camping Chair with Cooler, Black",
-        "oldPrice": 49.99,
-        "price": 39.99,
-        "brand": "Coleman",
-        "image": "https://images.pexels.com/photos/242138/pexels-photo-242138.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "equipments"
-    },
-    {
-        "id": 36,
-        "title": "Bose SoundLink Speaker",
-        "description": "Bose SoundLink Micro Bluetooth Speaker, Waterproof, Black",
-        "oldPrice": 119,
-        "price": 99,
-        "brand": "Bose",
-        "image": "https://images.pexels.com/photos/3965520/pexels-photo-3965520.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "electronics"
-    },
-    {
-        "id": 37,
-        "title": "Women's Floral Dress",
-        "description": "Time and Tru Women's Sleeveless Floral Midi Dress, Sizes XS-XXL",
-        "oldPrice": 29.99,
-        "price": 24.99,
-        "brand": "Time and Tru",
-        "image": "https://images.pexels.com/photos/12915247/pexels-photo-12915247.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "fashion"
-    },
-    {
-        "id": 38,
-        "title": "CeraVe Foaming Cleanser",
-        "description": "CeraVe Foaming Facial Cleanser, Daily Face Wash for Oily Skin, 16 fl oz",
-        "oldPrice": 17.99,
-        "price": 14.99,
-        "brand": "CeraVe",
-        "image": "https://i.ibb.co/yPJjB3r/top6.webp",
-        "isNew": true,
-        "category": "beauty"
-    },
-    {
-        "id": 39,
-        "title": "Area Rug 5x7",
-        "description": "Better Homes & Gardens Modern Geometric Area Rug, 5x7 Feet, Gray",
-        "oldPrice": 89.99,
-        "price": 79.99,
-        "brand": "Better Homes & Gardens",
-        "image": "https://images.pexels.com/photos/105934/pexels-photo-105934.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "decoration"
-    },
-    {
-        "id": 40,
-        "title": "Fitbit Versa 3",
-        "description": "Fitbit Versa 3 Health & Fitness Smartwatch with GPS, Black",
-        "oldPrice": 229.95,
-        "price": 199.95,
-        "brand": "Fitbit",
-        "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "electronics"
-    },
-    {
-        "id": 41,
-        "title": "Air Fryer 5.8 Qt",
-        "description": "Gourmia 5.8-Quart Digital Air Fryer with 8 Presets, Black",
-        "oldPrice": 79.99,
-        "price": 69.99,
-        "brand": "Gourmia",
-        "image": "https://images.pexels.com/photos/4108797/pexels-photo-4108797.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "decoration"
-    },
-    {
-        "id": 42,
-        "title": "Maybelline Lipstick",
-        "description": "Maybelline Color Sensational Lipstick, Mauve It, 0.15 oz",
-        "oldPrice": 8.99,
-        "price": 6.99,
-        "brand": "Maybelline",
-        "image": "https://images.pexels.com/photos/3611301/pexels-photo-3611301.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "beauty"
-    },
-    {
-        "id": 43,
-        "title": "LG 55-Inch 4K TV",
-        "description": "LG 55-Inch Class 4K Ultra HD Smart LED TV with HDR",
-        "oldPrice": 499.99,
-        "price": 449.99,
-        "brand": "LG",
-        "image": "https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "electronics"
-    },
-    {
-        "id": 44,
-        "title": "Women's Yoga Pants",
-        "description": "Athletic Works Women's High-Waisted Yoga Pants, Sizes XS-XXL",
-        "oldPrice": 19.99,
-        "price": 15.99,
-        "brand": "Athletic Works",
-        "image": "https://images.pexels.com/photos/4056723/pexels-photo-4056723.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "fashion"
-    },
-    {
-        "id": 45,
-        "title": "Throw Blanket",
-        "description": "Mainstays Cozy Plush Throw Blanket, 50x60 Inches, Gray",
-        "oldPrice": 12.99,
-        "price": 9.99,
-        "brand": "Mainstays",
-        "image": "https://images.pexels.com/photos/1926959/pexels-photo-1926959.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "decoration"
-    },
-    {
-        "id": 46,
-        "title": "Portable Power Bank",
-        "description": "Anker PowerCore 10000 Portable Charger, 10000mAh Power Bank",
-        "oldPrice": 29.99,
-        "price": 24.99,
-        "brand": "Anker",
-        "image": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "electronics"
-    },
-    {
-        "id": 47,
-        "title": "Backpack Cooler",
-        "description": "Igloo MaxCold Backpack Cooler, 24-Can Capacity, Black",
-        "oldPrice": 49.99,
-        "price": 39.99,
-        "brand": "Igloo",
-        "image": "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "isNew": true,
-        "category": "equipments"
+        "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+        "price": 12.99,
+        "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_t.png",
+        "rating": {
+            "rate": 3.6,
+            "count": 145
+        }
     }
 ]
