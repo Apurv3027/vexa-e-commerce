@@ -1,17 +1,13 @@
-import React, { useContext } from "react";
-
+import { useContext } from "react";
 import { Link } from "react-router-dom";
-
 import { IoMdArrowForward } from "react-icons/io";
-import { FiTrash2 } from "react-icons/fi";
-
 import CartItem from "../../components/home/CartItem";
 import { SidebarContext } from "../../contexts/SidebarContext";
 import { CartContext } from "../../contexts/CartContext";
 
 const Sidebar = () => {
     const { isOpen, handleClose } = useContext(SidebarContext);
-    const { cart, clearCart, itemAmount, total } = useContext(CartContext);
+    const { cart, itemAmount, total } = useContext(CartContext);
 
     return (
         <div
@@ -28,25 +24,46 @@ const Sidebar = () => {
                 </div>
             </div>
             <div className="flex flex-col gap-y-2 h-[360px] md:h-[480px] lg:h-[420px] overflow-y-auto overflow-x-hidden border-b">
-                {cart.map((item) => {
-                    return <CartItem item={item} key={item.id} />;
-                })}
-            </div>
-            <div className="flex flex-col gap-y-3  mt-4">
-                <div className="flex w-full justify-between items-center">
-                    {/* total */}
-                    <div className="font-semibold">
-                        <span className="mr-2">Subtotal:</span> ${" "}
-                        {parseFloat(total).toFixed(2)}
+                {cart.length > 0 ? (
+                    cart.map((item) => <CartItem item={item} key={item.id} />)
+                ) : (
+                    <div className="flex justify-center items-center h-full text-gray-500">
+                        Your Cart is empty
                     </div>
-                    {/* clear cart icon */}
-                    <div
-                        onClick={clearCart}
-                        className="cursor-pointer py-4 bg-red-500 text-white w-12 h-12 flex justify-center items-center text-xl"
-                    >
-                        <FiTrash2 />
+                )}
+            </div>
+            <div className="flex flex-col gap-y-3 mt-1">
+                {/* Subtotal */}
+                <div className="flex w-full justify-between items-center">
+                    <div className="font-semibold">
+                        <span className="mr-2">Subtotal:</span>
+                    </div>
+                    <div className="font-semibold">
+                        ₹ {parseFloat(total).toFixed(2)}
                     </div>
                 </div>
+
+                {/* VAT 18% */}
+                <div className="flex w-full justify-between items-center">
+                    <div className="font-semibold">
+                        <span className="mr-2">VAT (18%):</span>
+                    </div>
+                    <div className="font-semibold">
+                        ₹ {(parseFloat(total) * 0.18).toFixed(2)}
+                    </div>
+                </div>
+
+                {/* Total with VAT */}
+                <div className="flex w-full justify-between items-center border-t pt-2">
+                    <div className="font-bold text-lg">
+                        <span className="mr-2">Total:</span>
+                    </div>
+                    <div className="font-bold text-lg">
+                        ₹ {(parseFloat(total) * 1.18).toFixed(2)}
+                    </div>
+                </div>
+
+                {/* Buttons */}
                 <Link
                     to={"/"}
                     className="bg-gray-200 flex p-3 justify-center items-center text-primary w-full font-medium"

@@ -10,14 +10,6 @@ const HomeScreen = () => {
 
   console.log(products);
 
-  // get only men's and women's clothing category
-  const filteredProducts = products.filter((item) => {
-    return (
-    //   item.category === "men's clothing" || item.category === "women's clothing" || item.category === "jewelery"
-      item.category
-    );
-  });
-
   return (
     <div>
       <Hero />

@@ -10,6 +10,7 @@ const Category = () => {
             {categories.map((item, index) => (
                 <Link
                     key={index}
+                    to={`/category/${item}`}
                     className="flex-none bg-white shadow-md rounded-xl min-w-[200px] text-center group 
                                  transform transition duration-500 
                                  hover:-rotate-0 hover:-translate-y-2 hover:scale-105 hover:shadow-2xl"

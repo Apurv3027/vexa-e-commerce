@@ -5,6 +5,7 @@ import ProductDetails from './pages/User/home/ProductDetails';
 import Header from './components/home/Header';
 import Footer from './components/home/Footer';
 import Sidebar from './components/home/Sidebar';
+import CategoryProduct from './components/home/CategoryProduct';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomeScreen />}></Route>
           <Route path="/product/:id" element={<ProductDetails />}></Route>
+          <Route path="/category/:categoryName" element={<CategoryProduct />} />
 
           {/* Error Routes */}
           <Route path="*" element={<NotFoundPage />} />
