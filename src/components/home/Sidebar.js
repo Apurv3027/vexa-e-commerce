@@ -64,18 +64,28 @@ const Sidebar = () => {
                 </div>
 
                 {/* Buttons */}
-                <Link
+                {/* <Link
                     to={"/"}
                     className="bg-gray-200 flex p-3 justify-center items-center text-primary w-full font-medium"
                 >
                     View Cart
-                </Link>
-                <Link
-                    to={"/"}
-                    className="bg-primary flex p-3 justify-center items-center text-white w-full font-medium"
-                >
-                    Checkout
-                </Link>
+                </Link> */}
+                {cart.length > 0 ? (
+                    <Link
+                        to="/checkout"
+                        className="bg-primary flex p-3 justify-center items-center text-white w-full font-medium rounded-lg hover:bg-primary/90 transition"
+                        onClick={handleClose}
+                    >
+                        Checkout
+                    </Link>
+                ) : (
+                    <button
+                        disabled
+                        className="bg-gray-400 flex p-3 justify-center items-center text-white w-full font-medium rounded-lg cursor-not-allowed opacity-70"
+                    >
+                        Checkout
+                    </button>
+                )}
             </div>
         </div>
     );

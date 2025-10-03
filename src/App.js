@@ -6,6 +6,8 @@ import Header from './components/home/Header';
 import Footer from './components/home/Footer';
 import Sidebar from './components/home/Sidebar';
 import CategoryProduct from './components/home/CategoryProduct';
+import { Toaster } from 'react-hot-toast';
+import CheckoutScreen from './pages/User/cart/CheckoutScreen';
 
 function App() {
 
@@ -17,6 +19,7 @@ function App() {
           <Route path="/" element={<HomeScreen />}></Route>
           <Route path="/product/:id" element={<ProductDetails />}></Route>
           <Route path="/category/:categoryName" element={<CategoryProduct />} />
+          <Route path="/checkout" element={<CheckoutScreen />} />
 
           {/* Error Routes */}
           <Route path="*" element={<NotFoundPage />} />
@@ -24,6 +27,9 @@ function App() {
         <Sidebar />
         <Footer />
       </BrowserRouter>
+
+      {/* Global Toaster */}
+      <Toaster position="top-right" reverseOrder={false} />
     </div>
   );
 }
