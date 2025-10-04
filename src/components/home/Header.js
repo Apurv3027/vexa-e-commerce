@@ -3,7 +3,7 @@ import { SidebarContext } from "../../contexts/SidebarContext";
 import { CartContext } from "../../contexts/CartContext";
 import { Link } from "react-router-dom";
 import Logo from "../../img/logo.svg";
-import { BsBag } from "react-icons/bs";
+import { BsBag, BsPerson } from "react-icons/bs";
 
 const Header = () => {
     // header state
@@ -26,18 +26,28 @@ const Header = () => {
             <div className="container mx-auto flex items-center justify-between h-full">
                 <Link to={"/"}>
                     <div className="w-[40px]">
-                        <img src={Logo} alt="" />
+                        <img src={Logo} alt="Logo" />
                     </div>
                 </Link>
 
-                {/* cart */}
-                <div
-                    onClick={() => setIsOpen(!isOpen)}
-                    className="cursor-pointer flex relative"
-                >
-                    <BsBag className="text-2xl" />
-                    <div className="bg-red-500 absolute -right-2 -bottom-2 text-[12px] w-[18px] h-[18px] text-white rounded-full flex justify-center items-center">
-                        {itemAmount}
+                <div className="flex items-center gap-6">
+                    {/* login */}
+                    <Link
+                        to={"/login"}
+                        className="cursor-pointer flex relative"
+                    >
+                        <BsPerson className="text-2xl" />
+                    </Link>
+
+                    {/* cart */}
+                    <div
+                        onClick={() => setIsOpen(!isOpen)}
+                        className="cursor-pointer flex relative"
+                    >
+                        <BsBag className="text-2xl" />
+                        <div className="bg-red-500 absolute -right-2 -bottom-2 text-[12px] w-[18px] h-[18px] text-white rounded-full flex justify-center items-center">
+                            {itemAmount}
+                        </div>
                     </div>
                 </div>
             </div>

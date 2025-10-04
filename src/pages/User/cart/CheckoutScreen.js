@@ -76,7 +76,8 @@ const CheckoutScreen = () => {
                     <span>₹ {parseFloat(total).toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between">
-                    <span>VAT (18%):</span>
+                    {/* <span>VAT (18%):</span> */}
+                    <span>GST (18%):</span>
                     <span>₹ {vat.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between font-bold text-lg border-t pt-2 mt-2">

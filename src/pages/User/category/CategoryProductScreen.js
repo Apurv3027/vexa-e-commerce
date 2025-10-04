@@ -1,9 +1,10 @@
 import { useContext, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { ProductContext } from "../../contexts/ProductContext";
-import Product from "./Product";
+import { ProductContext } from "../../../contexts/ProductContext";
+import Product from "../../../components/home/Product";
+import Category from "../../../components/home/Category";
 
-const CategoryProduct = () => {
+const CategoryProductScreen = () => {
     const { categoryName } = useParams();
     const { products } = useContext(ProductContext);
 
@@ -32,8 +33,10 @@ const CategoryProduct = () => {
             ) : (
                 <p className="text-center text-gray-500">No products found in this category.</p>
             )}
+            <h1 className="text-3xl font-semibold mb-10 mt-16 text-center">Categories</h1>
+            <Category />
         </div>
     );
 };
 
-export default CategoryProduct;
+export default CategoryProductScreen;

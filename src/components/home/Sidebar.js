@@ -23,70 +23,69 @@ const Sidebar = () => {
                     <IoMdArrowForward className="text-2xl" />
                 </div>
             </div>
-            <div className="flex flex-col gap-y-2 h-[360px] md:h-[480px] lg:h-[420px] overflow-y-auto overflow-x-hidden border-b">
-                {cart.length > 0 ? (
-                    cart.map((item) => <CartItem item={item} key={item.id} />)
-                ) : (
+
+            {cart.length > 0 ? (
+                <>
+                    <div className="flex flex-col gap-y-2 h-[360px] md:h-[480px] lg:h-[420px] overflow-y-auto overflow-x-hidden border-b">
+                        {cart.map((item) => <CartItem item={item} key={item.id} />)}
+                    </div>
+                    <div className="flex flex-col gap-y-3 mt-1">
+                        {/* Subtotal */}
+                        <div className="flex w-full justify-between items-center">
+                            <div className="font-semibold">
+                                <span className="mr-2">Subtotal:</span>
+                            </div>
+                            <div className="font-semibold">
+                                ₹ {parseFloat(total).toFixed(2)}
+                            </div>
+                        </div>
+
+                        {/* VAT 18% */}
+                        <div className="flex w-full justify-between items-center">
+                            <div className="font-semibold">
+                                {/* <span className="mr-2">VAT (18%):</span> */}
+                                <span className="mr-2">GST (18%):</span>
+                            </div>
+                            <div className="font-semibold">
+                                ₹ {(parseFloat(total) * 0.18).toFixed(2)}
+                            </div>
+                        </div>
+
+                        {/* Total with VAT */}
+                        <div className="flex w-full justify-between items-center border-t pt-2">
+                            <div className="font-bold text-lg">
+                                <span className="mr-2">Total:</span>
+                            </div>
+                            <div className="font-bold text-lg">
+                                ₹ {(parseFloat(total) * 1.18).toFixed(2)}
+                            </div>
+                        </div>
+
+                        {cart.length > 0 ? (
+                            <Link
+                                to="/checkout"
+                                className="bg-primary flex p-3 justify-center items-center text-white w-full font-medium rounded-lg hover:bg-primary/90 transition"
+                                onClick={handleClose}
+                            >
+                                Checkout
+                            </Link>
+                        ) : (
+                            <button
+                                disabled
+                                className="bg-gray-400 flex p-3 justify-center items-center text-white w-full font-medium rounded-lg cursor-not-allowed opacity-70"
+                            >
+                                Checkout
+                            </button>
+                        )}
+                    </div>
+                </>
+            ) : (
+                <>
                     <div className="flex justify-center items-center h-full text-gray-500">
                         Your Cart is empty
                     </div>
-                )}
-            </div>
-            <div className="flex flex-col gap-y-3 mt-1">
-                {/* Subtotal */}
-                <div className="flex w-full justify-between items-center">
-                    <div className="font-semibold">
-                        <span className="mr-2">Subtotal:</span>
-                    </div>
-                    <div className="font-semibold">
-                        ₹ {parseFloat(total).toFixed(2)}
-                    </div>
-                </div>
-
-                {/* VAT 18% */}
-                <div className="flex w-full justify-between items-center">
-                    <div className="font-semibold">
-                        <span className="mr-2">VAT (18%):</span>
-                    </div>
-                    <div className="font-semibold">
-                        ₹ {(parseFloat(total) * 0.18).toFixed(2)}
-                    </div>
-                </div>
-
-                {/* Total with VAT */}
-                <div className="flex w-full justify-between items-center border-t pt-2">
-                    <div className="font-bold text-lg">
-                        <span className="mr-2">Total:</span>
-                    </div>
-                    <div className="font-bold text-lg">
-                        ₹ {(parseFloat(total) * 1.18).toFixed(2)}
-                    </div>
-                </div>
-
-                {/* Buttons */}
-                {/* <Link
-                    to={"/"}
-                    className="bg-gray-200 flex p-3 justify-center items-center text-primary w-full font-medium"
-                >
-                    View Cart
-                </Link> */}
-                {cart.length > 0 ? (
-                    <Link
-                        to="/checkout"
-                        className="bg-primary flex p-3 justify-center items-center text-white w-full font-medium rounded-lg hover:bg-primary/90 transition"
-                        onClick={handleClose}
-                    >
-                        Checkout
-                    </Link>
-                ) : (
-                    <button
-                        disabled
-                        className="bg-gray-400 flex p-3 justify-center items-center text-white w-full font-medium rounded-lg cursor-not-allowed opacity-70"
-                    >
-                        Checkout
-                    </button>
-                )}
-            </div>
+                </>
+            )}
         </div>
     );
 };

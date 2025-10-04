@@ -21,12 +21,9 @@ const CartItem = ({ item }) => {
                     {/* title and remove icon */}
                     <div className="flex justify-between mb-2">
                         {/* title */}
-                        <Link
-                            to={`/product/${id}`}
-                            className="text-sm uppercase font-medium max-w-[240px] text-primary hover:underline"
-                        >
+                        <div className="text-sm uppercase font-medium max-w-[240px] text-primary cursor-default">
                             {title}
-                        </Link>
+                        </div>
                         {/* remove icon */}
                         <div
                             onClick={() => removeFromCart(id)}
