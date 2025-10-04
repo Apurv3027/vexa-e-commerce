@@ -3,8 +3,12 @@ import { ProductContext } from "../../../contexts/ProductContext";
 import Product from '../../../components/home/Product'
 import Hero from '../../../components/home/Hero'
 import Category from "../../../components/home/Category";
+import { useTranslation } from "react-i18next";
 
 const HomeScreen = () => {
+
+  const { t } = useTranslation();
+
   // get products from product context
   const { products } = useContext(ProductContext);
 
@@ -15,9 +19,9 @@ const HomeScreen = () => {
       <Hero />
       <section className="py-20">
         <div className="container mx-auto">
-          <h1 className="text-3xl font-semibold mb-10 text-center">Categories</h1>
+          <h1 className="text-3xl font-semibold mb-10 text-center">{t('categories.title')}</h1>
           <Category />
-          <h1 className="text-3xl font-semibold mb-10 text-center">Explore Our Products</h1>
+          <h1 className="text-3xl font-semibold mb-10 text-center">{t('products.exploreOurProducts')}</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 lg:mx-8 gap-[30px] max-w-sm mx-auto md:max-w-none md:mx-0">
             {products.map((product) => {
               return (

@@ -1,9 +1,22 @@
 import React, { useContext } from "react";
 import { ProductContext } from "../../contexts/ProductContext";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Category = () => {
+    const { t } = useTranslation();
+
     const { categories } = useContext(ProductContext);
+
+    const getCategoryTranslationKey = (category) => {
+        const mapping = {
+            "men's clothing": "mensClothing",
+            "women's clothing": "womensClothing",
+            "jewelery": "jewelery",
+            "electronics": "electronics"
+        };
+        return mapping[category] || category;
+    };
 
     return (
         <div className="flex overflow-x-auto p-4 space-x-6 no-scrollbar mb-10">
@@ -19,7 +32,8 @@ const Category = () => {
                     <div className="pb-4">
                         <h4 className="font-semibold text-lg">
                             {/* {item.toLowerCase()} */}
-                            {item.charAt(0).toUpperCase() + item.slice(1).toLowerCase()}
+                            {/* {item.charAt(0).toUpperCase() + item.slice(1).toLowerCase()} */}
+                            {t(`categories.${getCategoryTranslationKey(item)}`)}
                         </h4>
                     </div>
                 </Link>

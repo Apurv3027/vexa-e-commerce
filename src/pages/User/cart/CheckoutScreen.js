@@ -1,7 +1,9 @@
 import React, { useContext, useEffect, useState } from "react";
 import { CartContext } from "../../../contexts/CartContext";
+import { useTranslation } from "react-i18next";
 
 const CheckoutScreen = () => {
+    const { t } = useTranslation();
     const { cart, total } = useContext(CartContext);
 
     const vat = parseFloat(total) * 0.18;
@@ -40,11 +42,11 @@ const CheckoutScreen = () => {
 
     return (
         <div className="max-w-4xl mx-auto p-6">
-            <h1 className="text-2xl font-bold mb-6">Checkout</h1>
+            <h1 className="text-2xl font-bold mb-6">{t("checkout.title")}</h1>
 
             {/* Cart Items */}
             <div className="bg-white shadow-md rounded-lg p-4 mb-6">
-                <h2 className="text-lg font-semibold mb-4">Order Summary</h2>
+                <h2 className="text-lg font-semibold mb-4">{t("checkout.orderSummary")}</h2>
                 {cart.length > 0 ? (
                     <div className="space-y-3">
                         {cart.map((item) => (
@@ -64,48 +66,48 @@ const CheckoutScreen = () => {
                         ))}
                     </div>
                 ) : (
-                    <p className="text-gray-500">Your cart is empty</p>
+                    <p className="text-gray-500">{t("common.empty")}</p>
                 )}
             </div>
 
             {/* Price Details */}
             <div className="bg-white shadow-md rounded-lg p-4 mb-6">
-                <h2 className="text-lg font-semibold mb-4">Price Details</h2>
+                <h2 className="text-lg font-semibold mb-4">{t("checkout.priceDetails")}</h2>
                 <div className="flex justify-between">
-                    <span>Subtotal:</span>
+                    <span>{t("common.subtotal")}:</span>
                     <span>₹ {parseFloat(total).toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between">
                     {/* <span>VAT (18%):</span> */}
-                    <span>GST (18%):</span>
+                    <span>{t("common.gst")}:</span>
                     <span>₹ {vat.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between font-bold text-lg border-t pt-2 mt-2">
-                    <span>Total:</span>
+                    <span>{t("common.total")}:</span>
                     <span>₹ {grandTotal.toFixed(2)}</span>
                 </div>
             </div>
 
             {/* Shipping Details */}
             <div className="bg-white shadow-md rounded-lg p-4 mb-6">
-                <h2 className="text-lg font-semibold mb-4">Shipping Information</h2>
+                <h2 className="text-lg font-semibold mb-4">{t("checkout.shippingInformation")}</h2>
                 <div className="space-y-4">
                     <input
                         type="text"
-                        placeholder="Full Name"
+                        placeholder={t("checkout.fullName")}
                         className="w-full border p-3 rounded-lg"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
                     />
                     <input
                         type="text"
-                        placeholder="Phone Number"
+                        placeholder={t("checkout.phoneNumber")}
                         className="w-full border p-3 rounded-lg"
                         value={phone}
                         onChange={(e) => setPhone(e.target.value)}
                     />
                     <textarea
-                        placeholder="Full Address"
+                        placeholder={t("checkout.fullAddress")}
                         className="w-full border p-3 rounded-lg"
                         rows="3"
                         value={address}
@@ -116,7 +118,7 @@ const CheckoutScreen = () => {
 
             {/* Payment Method */}
             <div className="bg-white shadow-md rounded-lg p-4 mb-6">
-                <h2 className="text-lg font-semibold mb-4">Payment Method</h2>
+                <h2 className="text-lg font-semibold mb-4">{t("checkout.paymentMethod")}</h2>
                 <div className="space-y-2">
                     <label className="flex items-center gap-2">
                         <input
@@ -125,7 +127,7 @@ const CheckoutScreen = () => {
                             checked={payment === "cod"}
                             onChange={(e) => setPayment(e.target.value)}
                         />
-                        Cash on Delivery
+                        {t("checkout.cashOnDelivery")}
                     </label>
                     <label className="flex items-center gap-2">
                         <input
@@ -134,7 +136,7 @@ const CheckoutScreen = () => {
                             checked={payment === "online"}
                             onChange={(e) => setPayment(e.target.value)}
                         />
-                        Online Payment
+                        {t("checkout.onlinePayment")}
                     </label>
                 </div>
             </div>
@@ -143,7 +145,7 @@ const CheckoutScreen = () => {
             <button
                 onClick={handlePlaceOrder}
                 className="w-full bg-primary text-white py-3 rounded-lg font-medium hover:bg-primary/90 transition">
-                Place Order
+                {t("common.placeOrder")}
             </button>
         </div>
     );

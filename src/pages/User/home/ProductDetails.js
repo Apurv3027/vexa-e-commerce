@@ -2,8 +2,12 @@ import React, { useContext, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { CartContext } from "../../../contexts/CartContext";
 import { ProductContext } from "../../../contexts/ProductContext";
+import { useTranslation } from "react-i18next";
 
 const ProductDetails = () => {
+
+    const { t } = useTranslation();
+
     // get the product id from url
     const { id } = useParams();
     const { addToCart, cart, increaseAmount, decreaseAmount } = useContext(CartContext);
@@ -64,7 +68,7 @@ const ProductDetails = () => {
                                 onClick={() => addToCart(product, product.id)}
                                 className='bg-primary py-4 px-8 text-white rounded-md hover:bg-primary/80 transition'
                             >
-                                Add to cart
+                                {t("common.addToCart")}
                             </button>
                         ) : (
                             <div className="flex items-center gap-4 justify-center lg:justify-start">
@@ -91,7 +95,7 @@ const ProductDetails = () => {
                 {/* Relevant Products Section */}
                 {relevantProducts.length > 0 && (
                     <div className="mt-16">
-                        <h2 className="text-2xl font-semibold mb-6">Relevant Products</h2>
+                        <h2 className="text-2xl font-semibold mb-6">{t("common.relevantProducts")}</h2>
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                             {relevantProducts.slice(0, 4).map((item) => {
                                 const relevantCartItem = getRelevantCartItem(item.id);
@@ -115,7 +119,7 @@ const ProductDetails = () => {
                                                 onClick={() => addToCart(item, item.id)}
                                                 className="bg-primary text-white px-4 py-2 rounded-md hover:bg-primary/80 transition"
                                             >
-                                                Add to Cart
+                                                {t("common.addToCart")}
                                             </button>
                                         ) : (
                                             <div className="flex items-center gap-2">

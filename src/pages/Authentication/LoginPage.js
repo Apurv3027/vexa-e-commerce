@@ -43,7 +43,7 @@ function LoginPage() {
       <div className="bg-white rounded-xl shadow-lg w-full max-w-md p-8">
         <div className="text-center mb-8">
           <h2 className="text-gray-800 text-3xl font-bold mb-3">{t("auth.welcomeBack")}</h2>
-          <p className="text-gray-600 text-base">{t("auth.signInMessage")}</p>
+          <p className="text-gray-600 text-base">{t("auth.signInToAccount")}</p>
         </div>
 
         <div className="flex bg-gray-50 rounded-lg p-1 mb-6">
@@ -80,7 +80,7 @@ function LoginPage() {
                 <input
                   type="tel"
                   id="mobile"
-                  placeholder="Enter your mobile number"
+                  placeholder={t("auth.enterMobileNumber")}
                   value={mobileNumber}
                   onChange={(e) => setMobileNumber(e.target.value.replace(/\D/g, ''))}
                   maxLength="10"
@@ -97,7 +97,7 @@ function LoginPage() {
                 <input
                   type="text"
                   id="otp"
-                  placeholder="Enter 6-digit code"
+                  placeholder={t("auth.enter6DigitCode")}
                   value={otp}
                   onChange={(e) => setOtp(e.target.value.replace(/\D/g, ''))}
                   maxLength="6"

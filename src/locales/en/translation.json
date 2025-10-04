@@ -1,43 +1,68 @@
 {
-  "auth": {
+  "common": {
+    "copyright": "Copyright © Vexa E-Commerce ® 2025. All rights reserved.",
+    "discoverMore": "DISCOVER MORE",
+    "checkout": "Checkout",
+    "placeOrder": "Place Order",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "gst": "GST (18%)",
+    "welcome": "Welcome",
     "login": "Login",
-    "logout": "Logout",
+    "cart": "Cart",
+    "home": "Home",
+    "addToCart": "Add to cart",
+    "relevantProducts": "Relevant Products"
+  },
+  "hero": {
+    "hotTrend": "HOT TREND",
+    "freshFashionFinds": "FRESH FASHION FINDS",
+    "newCollection": "NEW COLLECTION"
+  },
+  "categories": {
+    "title": "Categories",
+    "mensclothing": "Men's clothing",
+    "womensclothing": "Women's clothing",
+    "jewelery": "Jewelery",
+    "electronics": "Electronics"
+  },
+  "products": {
+    "exploreOurProducts": "Explore Our Products"
+  },
+  "cart": {
+    "shoppingBag": "SHOPPING BAG",
+    "items": "items",
+    "item": "item",
+    "empty": "Your Cart is empty"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "orderSummary": "Order Summary",
+    "priceDetails": "Price Details",
+    "shippingInformation": "Shipping Information",
+    "paymentMethod": "Payment Method",
+    "fullName": "Full Name",
+    "phoneNumber": "Phone Number",
+    "fullAddress": "Full Address",
+    "cashOnDelivery": "Cash on Delivery",
+    "onlinePayment": "Online Payment"
+  },
+  "auth": {
     "welcomeBack": "Welcome Back",
-    "signInMessage": "Sign in to access your account",
+    "signInToAccount": "Sign in to access your account",
     "mobileSignIn": "Mobile Sign In",
     "googleSignIn": "Google Sign In",
+    "signInWithGoogle": "Sign in with Google",
+    "googleRedirect": "You'll be redirected to Google to sign in",
     "mobileNumber": "Mobile Number",
+    "enterMobileNumber": "Enter your mobile number",
+    "sendVerificationCode": "Send Verification Code",
+    "countryCode": "+91",
     "verificationCode": "Verification Code",
     "enterCode": "Enter 6-digit code",
     "sentVerification": "We've sent a verification code to your mobile",
-    "sendVerificationCode": "Send Verification Code",
     "signIn": "Sign In",
-    "signInWithGoogle": "Sign in with Google",
+    "enter6DigitCode": "Enter 6-digit code",
     "redirectGoogle": "You'll be redirected to Google to sign in"
-  },
-  "header": {
-    "language": "Language",
-    "deliveryLocation": "Delivering to",
-    "updateLocation": "Update location",
-    "helloSignIn": "Hello, Sign in",
-    "accountAndLists": "Account & Lists",
-    "cart": "Cart"
-  },
-  "hero": {
-    "title": "Discover Your Style",
-    "subtitle": "Shop the latest trends at unbeatable prices",
-    "button": "Shop Now"
-  },
-  "categories": {
-    "title": "Shop by Category",
-    "beauty": "Beauty",
-    "decoration": "Decoration",
-    "electronics": "Electronics",
-    "equipments": "Equipments",
-    "fashion": "Fashion"
-  },
-  "products": {
-    "title": "Featured Products",
-    "addToCart": "Add to Cart"
   }
 }
