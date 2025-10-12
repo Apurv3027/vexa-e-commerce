@@ -22,13 +22,7 @@ const HomeScreen = () => {
           <h1 className="text-3xl font-semibold mb-10 text-center">{t('categories.title')}</h1>
           <Category />
           <h1 className="text-3xl font-semibold mb-10 text-center">{t('products.exploreOurProducts')}</h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 lg:mx-8 gap-[30px] max-w-sm mx-auto md:max-w-none md:mx-0">
-            {products.map((product) => {
-              return (
-                <Product product={product} key={product.id}/>
-              );
-            })}
-          </div>
+          <Product />
         </div>
       </section>
     </div>

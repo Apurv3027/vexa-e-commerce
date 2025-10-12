@@ -1,58 +1,94 @@
-import React, { useContext } from "react";
+// import { useContext } from "react";
 import { Link } from "react-router-dom";
-
 import { IoMdAdd, IoMdClose, IoMdRemove } from "react-icons/io";
-
-import { CartContext } from "../../contexts/CartContext";
+// import { CartContext } from "../../contexts/CartContext";
+// import { useAuth } from "../../contexts/AuthContext";
 
 const CartItem = ({ item }) => {
-    const { removeFromCart, increaseAmount, decreaseAmount } = useContext(CartContext);
-    // destructure item
-    const { id, title, image, price, amount } = item;
+    // const { removeFromCart, updateCartQuantity } = useContext(CartContext);
+    // const { isAuthenticated } = useAuth();
+
+    const product = item.product || item;
+    const quantity = item.quantity || 1;
+
+    // const handleRemove = () => {
+    //     if (isAuthenticated() && product._id) {
+    //         removeFromCart(product._id);
+    //     }
+    // };
+
+    // const handleIncrease = () => {
+    //     if (isAuthenticated() && product._id) {
+    //         updateCartQuantity(product._id, quantity + 1);
+    //     }
+    // };
+
+    // const handleDecrease = () => {
+    //     if (isAuthenticated() && product._id) {
+    //         updateCartQuantity(product._id, quantity - 1);
+    //     }
+    // };
 
     return (
-        <div className="flex gap-x-4 py-2 lg:px-6 border-b border-gray-200 w-full font-light text-gray-500">
+        <div className="flex gap-x-4 py-2 lg:px-2 border-b border-gray-200 w-full font-light text-gray-500">
             <div className="w-full min-h-[150px] flex items-center gap-x-4">
-                {/* image */}
-                <Link to={`/product/${id}`}>
-                    <img className="max-w-[80px]" src={image} alt="" />
+                {/* Product Image */}
+                <Link to={`/product/${product._id}`}>
+                    <img
+                        className="max-w-[80px]"
+                        src={product.image}
+                        alt={product.title}
+                    />
                 </Link>
+
                 <div className="w-full flex flex-col">
-                    {/* title and remove icon */}
                     <div className="flex justify-between mb-2">
-                        {/* title */}
-                        <div className="text-sm uppercase font-medium max-w-[240px] text-primary cursor-default">
-                            {title}
-                        </div>
-                        {/* remove icon */}
-                        <div
-                            onClick={() => removeFromCart(id)}
-                            className="text-xl cursor-pointer"
+                        {/* Product Title */}
+                        <Link
+                            to={`/product/${product._id}`}
+                            className="text-sm uppercase font-medium max-w-[240px] text-primary hover:underline"
                         >
-                            <IoMdClose className="text-gray-500 hover:text-red-500 transition" />
+                            {product.title}
+                        </Link>
+
+                        {/* Remove button */}
+                        <div
+                            // onClick={handleRemove}
+                            className="text-xl cursor-pointer hover:text-red-500 transition-all"
+                        >
+                            <IoMdClose className="text-gray-500 hover:text-red-500" />
                         </div>
                     </div>
+
                     <div className="flex gap-x-2 h-[36px] text-sm">
-                        {/* quantity */}
+                        {/* Quantity Controls */}
                         <div className="flex flex-1 max-w-[100px] items-center h-full border text-primary font-medium">
-                            <div onClick={() => decreaseAmount(id)} className="h-full flex-1 flex justify-center items-center cursor-pointer">
+                            <div
+                                // onClick={handleDecrease}
+                                className="flex-1 h-full flex justify-center items-center cursor-pointer hover:bg-gray-100"
+                            >
                                 <IoMdRemove />
                             </div>
                             <div className="h-full flex justify-center items-center px-2">
-                                {amount}
+                                {quantity}
                             </div>
-                            <div onClick={() => increaseAmount(id)} className="h-full flex flex-1 justify-center items-center cursor-pointer">
+                            <div
+                                // onClick={handleIncrease}
+                                className="flex-1 h-full flex justify-center items-center cursor-pointer hover:bg-gray-100"
+                            >
                                 <IoMdAdd />
                             </div>
                         </div>
-                        {/* item price */}
-                        <div className="flex flex-1 justify-around items-center">
-                            ₹ {price}
+
+                        {/* Item Price */}
+                        <div className="flex-1 flex items-center justify-around">
+                            ₹ {product.price}
                         </div>
-                        {/* final price */}
-                        <div className="flex flex-1 justify-end items-center text-primary font-medium">{`₹ ${parseFloat(
-                            price * amount
-                        ).toFixed(2)}`}</div>
+
+                        {/* Final Price */}
+                        <div className="flex-1 flex items-center justify-end font-medium">
+                            ₹ {(product.price * quantity).toFixed(2)}
+                        </div>
                     </div>
                 </div>
             </div>

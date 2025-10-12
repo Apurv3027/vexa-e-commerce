@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { CategoryContext } from "../../../contexts/CategoryContext";
-import Product from "../../../components/home/Product";
+import CategoryProduct from "../../../components/home/CategoryProduct";
 import Category from "../../../components/home/Category";
 
 const CategoryProductScreen = () => {
@@ -70,7 +70,7 @@ const CategoryProductScreen = () => {
             {categoryProducts.length > 0 ? (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[30px]">
                     {categoryProducts.map((product) => (
-                        <Product product={product} key={product._id} />
+                        <CategoryProduct product={product} key={product._id} />
                     ))}
                 </div>
             ) : (

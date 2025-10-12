@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Logo from "../../img/logo.svg";
 import { BsBag, BsPerson, BsGlobe, BsChevronDown } from "react-icons/bs";
+import { useAuth } from "../../contexts/AuthContext";
 
 const Header = () => {
     // header state
@@ -13,6 +14,8 @@ const Header = () => {
     const { isOpen, setIsOpen } = useContext(SidebarContext);
     const { itemAmount } = useContext(CartContext);
     const { i18n } = useTranslation();
+
+    const { isAuthenticated } = useAuth();
 
     // event listener
     useEffect(() => {
@@ -89,12 +92,21 @@ const Header = () => {
                     </div>
 
                     {/* login */}
-                    <Link
-                        to={"/login"}
-                        className="cursor-pointer flex relative"
-                    >
-                        <BsPerson className="text-2xl" />
-                    </Link>
+                    {!isAuthenticated() ? (
+                        <Link
+                            to={"/login"}
+                            className="cursor-pointer flex relative"
+                        >
+                            <BsPerson className="text-2xl" />
+                        </Link>
+                    ) : (
+                        <Link
+                            // to={"/profile"}
+                            className="cursor-pointer flex relative"
+                        >
+                            <BsPerson className="text-2xl" />
+                        </Link>
+                    )}
 
                     {/* cart */}
                     <div

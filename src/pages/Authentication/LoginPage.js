@@ -1,41 +1,60 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../../contexts/AuthContext';
 
 function LoginPage() {
 
   const { t } = useTranslation();
+  const navigate = useNavigate();
+  const { sendOtp, verifyOtp } = useAuth();
 
   const [loginMethod, setLoginMethod] = useState('mobile');
   const [mobileNumber, setMobileNumber] = useState('');
   const [otpSent, setOtpSent] = useState(false);
   const [otp, setOtp] = useState('');
-
-  const navigate = useNavigate();
+  const [sendingOtp, setSendingOtp] = useState(false);
+  const [verifyingOtp, setVerifyingOtp] = useState(false);
 
   const handleGoogleSignIn = () => {
     console.log('Google sign-in initiated');
     navigate('/', { replace: true });
   };
 
-  const handleSendOtp = () => {
-    if (mobileNumber.length < 10) {
-      alert('Please enter a valid mobile number');
+  const handleSendOtp = async () => {
+    if (mobileNumber.length !== 10) {
+      alert('Please enter a valid 10-digit mobile number');
       return;
     }
 
-    console.log('Sending OTP to:', mobileNumber);
-    setOtpSent(true);
+    setSendingOtp(true);
+    const result = await sendOtp(mobileNumber);
+    setSendingOtp(false);
+
+    if (result.success) {
+      setOtpSent(true);
+    }
   };
 
-  const handleLogin = () => {
+  const handleLogin = async () => {
     if (otp.length !== 6) {
       alert('Please enter a valid 6-digit OTP');
       return;
     }
 
-    console.log('Logging in with OTP:', otp);
-    navigate('/', { replace: true });
+    setVerifyingOtp(true);
+    const result = await verifyOtp(mobileNumber, otp);
+    setVerifyingOtp(false);
+
+    if (result.success) {
+      navigate('/', { replace: true });
+    }
+  };
+
+  const handleResendOtp = async () => {
+    setSendingOtp(true);
+    await sendOtp(mobileNumber);
+    setSendingOtp(false);
   };
 
   return (
@@ -49,8 +68,8 @@ function LoginPage() {
         <div className="flex bg-gray-50 rounded-lg p-1 mb-6">
           <button
             className={`flex-1 py-3 px-4 rounded-md font-semibold cursor-pointer transition-all duration-300 ${loginMethod === 'mobile'
-              ? 'bg-white shadow-sm'
-              : 'bg-transparent'
+                ? 'bg-white shadow-sm'
+                : 'bg-transparent'
               }`}
             onClick={() => setLoginMethod('mobile')}
           >
@@ -58,8 +77,8 @@ function LoginPage() {
           </button>
           <button
             className={`flex-1 py-3 px-4 rounded-md font-semibold cursor-pointer transition-all duration-300 ${loginMethod === 'google'
-              ? 'bg-white shadow-sm'
-              : 'bg-transparent'
+                ? 'bg-white shadow-sm'
+                : 'bg-transparent'
               }`}
             onClick={() => setLoginMethod('google')}
           >
@@ -84,7 +103,8 @@ function LoginPage() {
                   value={mobileNumber}
                   onChange={(e) => setMobileNumber(e.target.value.replace(/\D/g, ''))}
                   maxLength="10"
-                  className="flex-1 p-3 text-base outline-none"
+                  disabled={otpSent}
+                  className="flex-1 p-3 text-base outline-none disabled:bg-gray-50 disabled:cursor-not-allowed"
                 />
               </div>
             </div>
@@ -103,17 +123,55 @@ function LoginPage() {
                   maxLength="6"
                   className="w-full p-3 border border-gray-200 rounded-lg text-base transition-colors focus:border-blue-400 focus:shadow-sm focus:shadow-blue-200 outline-none"
                 />
-                <p className="text-sm text-gray-600 mt-2">
-                  {t("auth.sentVerification")}
-                </p>
+                <div className="flex justify-between items-center mt-2">
+                  <p className="text-sm text-gray-600">
+                    {t("auth.sentVerification")}
+                  </p>
+                  <button
+                    onClick={handleResendOtp}
+                    disabled={sendingOtp}
+                    className="text-blue-600 text-sm font-medium hover:text-blue-700 disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    {sendingOtp ? 'Resending...' : 'Resend OTP'}
+                  </button>
+                </div>
               </div>
             )}
 
             <button
-              className="w-full py-3 bg-gray-700 text-white border-none rounded-lg text-base font-semibold cursor-pointer transition-colors hover:bg-gray-800"
+              className="w-full py-3 bg-gray-700 text-white border-none rounded-lg text-base font-semibold cursor-pointer transition-colors hover:bg-gray-800 disabled:bg-gray-400 disabled:cursor-not-allowed flex items-center justify-center"
               onClick={otpSent ? handleLogin : handleSendOtp}
+              disabled={
+                otpSent
+                  ? verifyingOtp || otp.length !== 6
+                  : sendingOtp || mobileNumber.length !== 10
+              }
             >
-              {otpSent ? `${t("auth.signIn")}` : `${t("auth.sendVerificationCode")}`}
+              {otpSent ? (
+                verifyingOtp ? (
+                  <>
+                    <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    Verifying...
+                  </>
+                ) : (
+                  `${t("auth.signIn")}`
+                )
+              ) : (
+                sendingOtp ? (
+                  <>
+                    <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    Sending OTP...
+                  </>
+                ) : (
+                  `${t("auth.sendVerificationCode")}`
+                )
+              )}
             </button>
           </div>
         ) : (
