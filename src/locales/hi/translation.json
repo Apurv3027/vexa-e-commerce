@@ -21,9 +21,9 @@
   },
   "categories": {
     "title": "श्रेणियाँ",
-    "men's clothing": "पुरुषों के कपड़े",
-    "women's clothing": "महिलाओं के कपड़े",
-    "jewelery": "ज्वैलरी",
+    "mensClothing": "पुरुषों के कपड़े",
+    "womensClothing": "महिलाओं के कपड़े",
+    "jewelry": "आभूषण",
     "electronics": "इलेक्ट्रॉनिक्स"
   },
   "products": {

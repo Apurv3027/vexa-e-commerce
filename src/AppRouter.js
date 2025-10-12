@@ -25,7 +25,7 @@ function AppRouter() {
             <Routes>
                 <Route path="/" element={<HomeScreen />}></Route>
                 <Route path="/product/:id" element={<ProductDetails />}></Route>
-                <Route path="/category/:categoryName" element={<CategoryProductScreen />} />
+                <Route path="/category/:categoryId" element={<CategoryProductScreen />} />
                 <Route path="/checkout" element={<CheckoutScreen />} />
 
                 {/* Authentication */}

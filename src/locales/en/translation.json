@@ -21,9 +21,9 @@
   },
   "categories": {
     "title": "Categories",
-    "mensclothing": "Men's clothing",
-    "womensclothing": "Women's clothing",
-    "jewelery": "Jewelery",
+    "mensClothing": "Men’s Clothing",
+    "womensClothing": "Women’s Clothing",
+    "jewelry": "Jewelry",
     "electronics": "Electronics"
   },
   "products": {
