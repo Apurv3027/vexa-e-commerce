@@ -12,7 +12,8 @@
     "cart": "Cart",
     "home": "Home",
     "addToCart": "Add to cart",
-    "relevantProducts": "Relevant Products"
+    "relevantProducts": "Relevant Products",
+    "continueShopping": "Continue Shopping"
   },
   "hero": {
     "hotTrend": "HOT TREND",
@@ -33,7 +34,10 @@
     "shoppingBag": "SHOPPING BAG",
     "items": "items",
     "item": "item",
-    "empty": "Your Cart is empty"
+    "empty": "Your Cart is empty",
+    "addItems": "Add items to your cart to get started",
+    "loginRequired": "Login Required",
+    "loginToView": "Please log in to view this content"
   },
   "checkout": {
     "title": "Checkout",

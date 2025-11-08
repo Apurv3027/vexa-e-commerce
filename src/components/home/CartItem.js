@@ -37,7 +37,7 @@ const CartItem = ({ item }) => {
                     <img
                         className="max-w-[80px]"
                         src={product.image}
-                        alt={product.title}
+                        alt={product.name}
                     />
                 </Link>
 
@@ -48,7 +48,7 @@ const CartItem = ({ item }) => {
                             to={`/product/${product._id}`}
                             className="text-sm uppercase font-medium max-w-[240px] text-primary hover:underline"
                         >
-                            {product.title}
+                            {product.name}
                         </Link>
 
                         {/* Remove button */}

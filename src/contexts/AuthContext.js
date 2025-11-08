@@ -1,5 +1,6 @@
 import React, { createContext, useState, useContext, useEffect } from "react";
 import toast from "react-hot-toast";
+import axios from "axios";
 
 const AuthContext = createContext();
 
@@ -12,6 +13,7 @@ export const useAuth = () => {
 };
 
 export const AuthProvider = ({ children }) => {
+    const [userId, setUserId] = useState(null);
     const [user, setUser] = useState(null);
     const [token, setToken] = useState(null);
     const [loading, setLoading] = useState(false);
@@ -78,9 +80,11 @@ export const AuthProvider = ({ children }) => {
                 // Store token and user data
                 localStorage.setItem("authToken", data.token);
                 localStorage.setItem("user", JSON.stringify(data.user));
+                localStorage.setItem("userId", data.user._id);
 
                 setToken(data.token);
                 setUser(data.user);
+                setUserId(data.user._id);
 
                 toast.success("Login successful!");
                 return { success: true, user: data.user };
@@ -97,6 +101,44 @@ export const AuthProvider = ({ children }) => {
         }
     };
 
+    const googleSignIn = async (credentialResponse) => {
+        try {
+            setLoading(true);
+            console.log("Google sign-in initiated");
+
+            const token = credentialResponse.credential;
+
+            const response = await axios.post("http://localhost:5000/api/auth/google/", {
+                token,
+            });
+
+            console.log("Google sign-in response:", response.data);
+            const data = await response.data;
+
+            if (response.data.status === 200) {
+                localStorage.setItem("authToken", data.token);
+                localStorage.setItem("user", JSON.stringify(data.user));
+                localStorage.setItem("userId", data.user._id);
+
+                setToken(data.token);
+                setUser(data.user);
+                setUserId(data.user._id);
+
+                toast.success("Google login successful!");
+                return { success: true, user: response.data.user };
+            } else {
+                toast.error(response.data.message || "Google login failed");
+                return { success: false, error: response.data.message };
+            }
+        } catch (error) {
+            console.error("Google signin failed:", error);
+            toast.error("Google signin failed");
+            return { success: false, error: error.message };
+        } finally {
+            setLoading(false);
+        }
+    }
+
     // Logout
     const logout = () => {
         localStorage.removeItem("authToken");
@@ -112,11 +154,13 @@ export const AuthProvider = ({ children }) => {
     };
 
     const value = {
+        userId,
         user,
         token,
         loading,
         sendOtp,
         verifyOtp,
+        googleSignIn,
         logout,
         isAuthenticated,
     };

@@ -21,19 +21,19 @@ function AppRouter() {
     const hideSidebarOnCheckout = location.pathname === "/checkout";
 
     // Protected Route for authenticated pages
-    const ProtectedRoute = ({ children }) => {
-        const { isAuthenticated, loading } = useAuth();
+    // const ProtectedRoute = ({ children }) => {
+    //     const { isAuthenticated, loading } = useAuth();
 
-        if (loading) {
-            return (
-                <div className="flex justify-center items-center min-h-screen">
-                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900"></div>
-                </div>
-            );
-        }
+    //     if (loading) {
+    //         return (
+    //             <div className="flex justify-center items-center min-h-screen">
+    //                 <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900"></div>
+    //             </div>
+    //         );
+    //     }
 
-        return isAuthenticated() ? children : <Navigate to="/login" />;
-    };
+    //     return isAuthenticated() ? children : <Navigate to="/login" />;
+    // };
 
     return (
         <div className="overflow-hidden">
@@ -43,9 +43,10 @@ function AppRouter() {
                 <Route
                     path="/"
                     element={
-                        <ProtectedRoute>
-                            <HomeScreen />
-                        </ProtectedRoute>
+                        // <ProtectedRoute>
+                        //     <HomeScreen />
+                        // </ProtectedRoute>
+                        <HomeScreen />
                     }
                 />
                 <Route path="/product/:productId" element={<ProductDetails />}></Route>

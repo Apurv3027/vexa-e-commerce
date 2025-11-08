@@ -20,6 +20,7 @@ const CheckoutScreen = () => {
             top: 0,
             behavior: "smooth",
         });
+        console.log(cart);
     }, []);
 
     const handlePlaceOrder = () => {
@@ -51,17 +52,17 @@ const CheckoutScreen = () => {
                     <div className="space-y-3">
                         {cart.map((item) => (
                             <div
-                                key={item.id}
+                                key={item.product.id}
                                 className="flex justify-between items-center border-b pb-2"
                             >
-                                <img className="max-w-[80px]" src={item.image} alt="" />
+                                <img className="max-w-[80px]" src={item.product.image} alt="" />
                                 <div className="flex-1 mx-4">
-                                    <p className="font-medium">{item.title}</p>
+                                    <p className="font-medium">{item.product.name}</p>
                                     <p className="text-sm text-gray-500">
-                                        {item.amount} × ₹{item.price}
+                                        {item.quantity} × ₹{item.product.price}
                                     </p>
                                 </div>
-                                <p className="font-semibold">₹{item.price * item.amount}</p>
+                                <p className="font-semibold">₹{item.product.price * item.quantity}</p>
                             </div>
                         ))}
                     </div>

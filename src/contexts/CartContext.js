@@ -10,7 +10,7 @@ const CartProvider = ({ children }) => {
     const [total, setTotal] = useState(0);
     const [loading, setLoading] = useState(false);
 
-    const { user } = useAuth;
+    const { user } = useAuth();
 
     // Fetch cart from API
     useEffect(() => {
@@ -114,6 +114,7 @@ const CartProvider = ({ children }) => {
         <CartContext.Provider
             value={{
                 cart,
+                loading,
                 fetchCart,
                 addToCart,
                 itemAmount,
